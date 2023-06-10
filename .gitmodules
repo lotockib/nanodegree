@@ -1,0 +1,6 @@
+[submodule "0_cpp_foundations/4_route_planner_project/CppND-Route-Planning-Project"]
+	path = 0_cpp_foundations/4_route_planner_project/CppND-Route-Planning-Project
+	url = git@github.com:udacity/CppND-Route-Planning-Project.git
+[submodule "0_cpp_foundations/4_route_planner_project/P0267_RefImpl"]
+	path = 0_cpp_foundations/4_route_planner_project/P0267_RefImpl
+	url = git@github.com:cpp-io2d/P0267_RefImpl.git
