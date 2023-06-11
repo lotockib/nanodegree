@@ -97,3 +97,30 @@ Segmentation fault (core dumped)
 
 ## Code Architecture
 ![test](./code_diagram.png)
+
+## VS Code Configuration
+VS Code intellisense must be told where the includes are for external libraries, compiler path, and c++ version.
+
+For this project, I used these settings for intellisense to work:
+
+c_cpp_properties.json
+```
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/local/include/io2d/**",
+                "/usr/include/cairo/**",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
+```
