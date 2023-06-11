@@ -47,3 +47,53 @@ In this classroom concept, you will see the instructions for building, running, 
     ```
     ./OSM_A_star_search
     ```
+
+## Test
+After build run tests....
+```
+cd build
+./test
+```
+Should get output similar to this (errors because code isn't built)
+```
+[06:48 PM][master]build $ ./test 
+Running main() from /home/blotocki/git/nanodegree/0_cpp_foundations/4_route_planner_project/CppND-Route-Planning-Project/thirdparty/googletest/googletest/src/gtest_main.cc
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from RoutePlannerTest
+[ RUN      ] RoutePlannerTest.TestCalculateHValue
+/home/blotocki/git/nanodegree/0_cpp_foundations/4_route_planner_project/CppND-Route-Planning-Project/test/utest_rp_a_star_search.cpp:66: Failure
+Expected equality of these values:
+  route_planner.CalculateHValue(start_node)
+    Which is: 0.031656995
+  1.1329799
+/home/blotocki/git/nanodegree/0_cpp_foundations/4_route_planner_project/CppND-Route-Planning-Project/test/utest_rp_a_star_search.cpp:67: Failure
+Expected equality of these values:
+  route_planner.CalculateHValue(end_node)
+    Which is: 4.6308042e+27
+  0.0f
+    Which is: 0
+/home/blotocki/git/nanodegree/0_cpp_foundations/4_route_planner_project/CppND-Route-Planning-Project/test/utest_rp_a_star_search.cpp:68: Failure
+Expected equality of these values:
+  route_planner.CalculateHValue(mid_node)
+    Which is: 4.0504058e-12
+  0.58903033
+[  FAILED  ] RoutePlannerTest.TestCalculateHValue (60 ms)
+[ RUN      ] RoutePlannerTest.TestAddNeighbors
+/home/blotocki/git/nanodegree/0_cpp_foundations/4_route_planner_project/CppND-Route-Planning-Project/test/utest_rp_a_star_search.cpp:84: Failure
+Expected equality of these values:
+  neighbors.size()
+    Which is: 0
+  4
+[  FAILED  ] RoutePlannerTest.TestAddNeighbors (34 ms)
+[ RUN      ] RoutePlannerTest.TestConstructFinalPath
+/home/blotocki/git/nanodegree/0_cpp_foundations/4_route_planner_project/CppND-Route-Planning-Project/test/utest_rp_a_star_search.cpp:104: Failure
+Expected equality of these values:
+  path.size()
+    Which is: 0
+  3
+Segmentation fault (core dumped)
+```
+
+## Code Architecture
+![test](./code_diagram.png)
