@@ -124,3 +124,7 @@ c_cpp_properties.json
     "version": 4
 }
 ```
+
+## Extensibility
+
+Example of extensibility is creating a child class that inherits from parent, and adding data to it.
