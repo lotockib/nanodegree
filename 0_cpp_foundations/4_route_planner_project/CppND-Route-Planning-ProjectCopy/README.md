@@ -1,3 +1,7 @@
+# Udacity Project
+
+This directory is a manual copy of [CppND-Route-Planning-Project](https://github.com/udacity/CppND-Route-Planning-Project) to allow for editing and project submission.
+
 # Route Planning Project
 
 This repo contains the starter code for the Route Planning project.
