@@ -10,3 +10,5 @@
 [A* Search](0_cpp_foundations/2_astar_search/a*_search_notes.md)
 
 [Multi File Programs](0_cpp_foundations/3_multi_file_programs/multi_file_program_notes.md)
+
+[Open Street Maps Route Planning Project](0_cpp_foundations/4_route_planner_project/route_planning_notes.md)

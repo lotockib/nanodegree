@@ -129,12 +129,6 @@ c_cpp_properties.json
 
 Example of extensibility is creating a child class that inherits from parent, and adding data to it.
 
-# Instructions
+## Project
 
-Completing the Project
-To complete this project you will need to:
-
-Complete the TODO in main.cpp
-Complete the TODOs in route_planner.cpp
-Check that all tests are passed when you run the test executable in your build directory.
-Check that you have satisfied all of the criteria in the project rubric. If you feel like all the criteria from the rubric are met, you are ready to submit!
+See [README](CppND-Route-Planning-ProjectCopy/README.md).
