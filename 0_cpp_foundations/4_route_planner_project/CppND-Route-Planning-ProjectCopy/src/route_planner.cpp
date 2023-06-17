@@ -84,7 +84,10 @@ RouteModel::Node *RoutePlanner::NextNode() {
     return next_node;
 }
 
-
+/**
+ * Use provided node and parents to construct path, and calculate
+ * total distance.
+*/
 std::vector<RouteModel::Node> RoutePlanner::ConstructFinalPath(
     RouteModel::Node *current_node) {
 
@@ -121,8 +124,11 @@ std::vector<RouteModel::Node> RoutePlanner::ConstructFinalPath(
     return path_found;
 }
 
-
+/**
+ * Perform A* Search
+*/
 void RoutePlanner::AStarSearch() {
+    
     // Initialize starting node
     RouteModel::Node *current_node;
     current_node = start_node;

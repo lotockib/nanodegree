@@ -4,9 +4,7 @@
 
 ### Style
 
-[Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
-
-[Linter](https://marketplace.visualstudio.com/items?itemName=mine.cpplint) (Uses Google C++ Style Guide)
+[Linter](https://marketplace.visualstudio.com/items?itemName=mine.cpplint) (Uses [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html) )
 
 ### Intellisense
 
@@ -32,7 +30,27 @@ Setup [c_cpp_properties.json](https://code.visualstudio.com/docs/cpp/config-linu
 }
 ```
 
+### Dependencies
 
+- **TODO**
+
+### Extensions
+
+- C/C++ by Microsoft
+- C/C++ Extension Pack by Microsoft
+- Clang-Format by Xaver Hallauer (not sure what this is doing)
+- CMake by twxs
+- CMake Tools by Microsoft
+- cpplint by mine
+
+### Debugging
+
+**TODO**
+
+### Other
+
+- **TODO** settings.json
+- **TODO** tasks.json
 
 ## cout
 ```
