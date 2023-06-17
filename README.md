@@ -1,8 +1,3 @@
-# Useful Links
-[cpp core guidelines](https://github.com/isocpp/CppCoreGuidelines)
-
-[cplusplus.com](https://cplusplus.com)
-
 # To Do
 - [ ] Read and incorporate review comments
 - [ ] Download copy of review if possible
@@ -21,17 +16,18 @@
 - [ ] Read [google tests concept](https://chromium.googlesource.com/external/github.com/google/googletest/+/refs/tags/release-1.8.0/googletest/docs/Primer.md)
 - [ ] Read (bad link from udacity https://developer.ibm.com/technologies/systems/articles/au-googletestingframework/)
 - [ ] Watch [google test tutorial](https://www.youtube.com/watch?v=16FI1-d2P4E)
-- [ ] Read [best practices for super readable code](https://webdesign.tutsplus.com/tutorials/top-15-best-practices-for-writing-super-readable-code--net-8118)
 - [ ] Read [more advanced best practices](https://hackernoon.com/few-simple-rules-for-good-coding-my-15-years-experience-96cb29d4acd9)
 - [ ] Read [tips for code optimization](http://www.thegeekstuff.com/2015/01/c-cpp-code-optimization/)
 - [ ] Read [programming techniques](http://www.whigg.ac.cn/resource/program/CPP/201010/P020101023562491092566.pdf)
-- [x] Read [auto and *](https://stackoverflow.com/questions/12773257/does-auto-type-assignments-of-a-pointer-in-c11-require)
 - [ ] Read [lambda functions](https://en.cppreference.com/w/cpp/language/lambda)
 - [ ] Read [lambda functions 2](https://docs.microsoft.com/en-us/cpp/cpp/lambda-expressions-in-cpp?view=vs-2019)
 - [ ] Read [big O notation](https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/)
 
 # Course Notes
 ## C++ Foundations
+
+[Machine Setup](0_cpp_foundations/0_welcome/machine_configuration.md)
+
 [Introduction to C++](0_cpp_foundations/1_introduction_to_cpp/introduction_to_cpp_notes.md)
 
 [A* Search](0_cpp_foundations/2_astar_search/a*_search_notes.md)
@@ -39,3 +35,12 @@
 [Multi File Programs](0_cpp_foundations/3_multi_file_programs/multi_file_program_notes.md)
 
 [Open Street Maps Route Planning Project](0_cpp_foundations/4_route_planner_project/route_planning_notes.md)
+
+# Useful Links
+[cpp core guidelines](https://github.com/isocpp/CppCoreGuidelines)
+
+[cplusplus.com](https://cplusplus.com)
+
+[auto and *](https://stackoverflow.com/questions/12773257/does-auto-type-assignments-of-a-pointer-in-c11-require)
+
+[best practices for super readable code](https://webdesign.tutsplus.com/tutorials/top-15-best-practices-for-writing-super-readable-code--net-8118)

@@ -21,12 +21,17 @@ RoutePlanner::RoutePlanner(
 }
 
 
+/**
+ * Return h-value of node based on distance to end_node.
+*/
 float RoutePlanner::CalculateHValue(RouteModel::Node const *node) {
     // Find distance from current node to end node
     return node->distance(*end_node);
 }
 
-
+/**
+ * Add neighbor nodes that haven't yet been visisted.
+*/
 void RoutePlanner::AddNeighbors(RouteModel::Node *current_node) {
     // Find neighbors of current node and populate vector
     current_node->FindNeighbors();
@@ -55,12 +60,18 @@ void RoutePlanner::AddNeighbors(RouteModel::Node *current_node) {
 }
 
 
+/**
+ * Compare nodes using g + h value.
+*/
 bool Compare(RouteModel::Node * node0, RouteModel::Node * node1) {
     // Return true if node0 is closer, false otherwise
     return node0->g_value + node0->h_value > node1->g_value + node1->h_value;
 }
 
 
+/**
+ * Sort open_list and return node with lowest cost.
+*/
 RouteModel::Node *RoutePlanner::NextNode() {
     // Initialize variables
     RouteModel::Node * next_node = nullptr;

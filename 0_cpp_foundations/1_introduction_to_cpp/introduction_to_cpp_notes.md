@@ -6,6 +6,8 @@
 
 [Linter](https://marketplace.visualstudio.com/items?itemName=mine.cpplint) (Uses [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html) )
 
+**TODO** look up function and class naming conventions, linter doesn't seem to enforce that
+
 ### Intellisense
 
 Setup [c_cpp_properties.json](https://code.visualstudio.com/docs/cpp/config-linux#_cc-configurations).  This config worked for udacity project which uses g++ and c++17
