@@ -1,5 +1,39 @@
 # Introduction to CPP
 
+## VS Code Configuration
+
+### Style
+
+[Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
+
+[Linter](https://marketplace.visualstudio.com/items?itemName=mine.cpplint) (Uses Google C++ Style Guide)
+
+### Intellisense
+
+Setup [c_cpp_properties.json](https://code.visualstudio.com/docs/cpp/config-linux#_cc-configurations).  This config worked for udacity project which uses g++ and c++17
+```
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/local/include/io2d/**",
+                "/usr/include/cairo/**",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
+```
+
+
+
 ## cout
 ```
 #include <iostream>
@@ -21,7 +55,8 @@ vector<int> v_2 = {3, 4, 5};
 vector<int> v_3;
 ```
 ## auto
-Makes refactoring more efficient.
+Makes refactoring more efficient.  [More info about auto](https://www.geeksforgeeks.org/type-inference-in-c-auto-and-decltype/)
+
 ```
 auto i = 5;
 ```

@@ -35,7 +35,7 @@ float get_user_coord(std::string coord_name) {
 }
 
 int main(int argc, const char **argv)
-{    
+{
     std::string osm_data_file = "";
     if( argc > 1 ) {
         for( int i = 1; i < argc; ++i )

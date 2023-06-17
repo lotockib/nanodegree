@@ -80,6 +80,8 @@ will produce a main.o file, and that file can be converted to an executable with
 
 ### CMake
 - CMakeLists.txt can live in every directory
+- Please note that CMake isn't a build system. It's a build system generator. This is why we need to invoke make after running CMake. Running CMake generates Makefiles with the appropriate platform dependencies, and running make uses them.
+- FYI of [how to write makefiles](https://www.cs.swarthmore.edu/~newhall/unixhelp/howto_makefiles.html) (don't need to actually do this, Cmake does it for us)
 - Inside:
   - minimum cmake version specified
   - sent environmental variable

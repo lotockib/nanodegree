@@ -6,12 +6,12 @@ This directory is a manual copy of [CppND-Route-Planning-Project](https://github
 
 1. Install dependencies per [Udacity repo instructions](https://github.com/udacity/CppND-Route-Planning-Project/blob/master/README.md#dependencies-for-running-locally).
 
-1. Clone this repo and initialize submodules
+1. Clone this repo and initialize submodules.
 
     ```
     git clone https://github.com/lotockib/nanodegree.git --recurse-submodules
     ```
-2. Build
+2. Build.
 
     ```
     cd nanodegree/0_cpp_foundations/4_route_planner_project/CppND-Route-Planning-ProjectCopy/
