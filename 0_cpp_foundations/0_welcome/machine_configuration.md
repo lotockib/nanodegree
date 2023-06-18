@@ -3,7 +3,7 @@
 ## Style
 
 MSR uses [ROS2 Style Guide](https://docs.ros.org/en/rolling/The-ROS2-Project/Contributing/Code-Style-Language-Versions.html#id1) (variation on Google style guide), includes details on variable and function naming.
-- Classes: camelCase
+- Classes: camelCase (CamelCase)
 - Methods & Functions: either CamelCase or snake_case, but prefer what the rest of the project is doing
 
 [Linter](https://marketplace.visualstudio.com/items?itemName=mine.cpplint) (Uses [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)  - can't figure out how to use the ros2 cpplint.py)

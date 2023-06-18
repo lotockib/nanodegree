@@ -2,7 +2,9 @@
 
 ## commenting
 
-[commenting](https://visualstudiomagazine.com/Kunk0211)
+Find the balance: don't comment every line because the code should be somewhat readable, but include some comments on the intent and what it 'should do' (possibly in blocks)
+
+[good article on commenting](https://visualstudiomagazine.com/Kunk0211)
 
 ## cout
 ```
@@ -62,7 +64,7 @@ int AdditionFunctionv3(const vector<int> &v)
 }
 ```
 
-functions
+## functions
 ```
 int AdditionFunctionv1(vector<int> vec) {
     int sum = 0;
@@ -73,7 +75,7 @@ int AdditionFunctionv1(vector<int> vec) {
 }
 ```
 
-if and while loops
+## if and while loops
 ```
 // if statement
 bool a = true;
