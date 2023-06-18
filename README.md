@@ -1,6 +1,6 @@
 # To Do
 - [x] Read and incorporate review comments
-- [ ] Download copy of review if possible
+- [x] Download copy of review if possible
 - [ ] Update pointer section with clear examples of declaring pointers in various ways, passing as arguments, and returning
   - [ ] Refer to code review comments with suggestions
 - [ ] Read article about [commenting](https://visualstudiomagazine.com/Kunk0211)
@@ -26,7 +26,7 @@
 # Course Notes
 ## C++ Foundations
 
-[Machine Setup](0_cpp_foundations/0_welcome/machine_configuration.md)
+[Machine Setup For C++ Development](0_cpp_foundations/0_welcome/machine_configuration.md)
 
 [Introduction to C++](0_cpp_foundations/1_introduction_to_cpp/introduction_to_cpp_notes.md)
 

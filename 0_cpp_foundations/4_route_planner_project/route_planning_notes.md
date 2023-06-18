@@ -1,4 +1,3 @@
-
 # Route Planning
 
 ## Build
@@ -31,7 +30,7 @@ In this classroom concept, you will see the instructions for building, running, 
     cd build
     cmake --config Release "-DCMAKE_BUILD_TYPE=Release" ..
     make
-    sudo make install (this installs library to machine)
+    sudo make install (this installs library to machine at ```/usr/local/include/io2d```, can use ```find -name``` to figure it out)
     ```
 
 3. Build udacity project
