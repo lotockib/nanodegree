@@ -1,5 +1,5 @@
 # To Do
-- [ ] Read and incorporate review comments
+- [x] Read and incorporate review comments
 - [ ] Download copy of review if possible
 - [ ] Update pointer section with clear examples of declaring pointers in various ways, passing as arguments, and returning
   - [ ] Refer to code review comments with suggestions
