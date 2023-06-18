@@ -1,5 +1,9 @@
 # Introduction to CPP
 
+## commenting
+
+[commenting](https://visualstudiomagazine.com/Kunk0211)
+
 ## cout
 ```
 #include <iostream>
