@@ -3,6 +3,8 @@
         {
             "name": "Linux",
             "includePath": [
+                "/usr/local/include/io2d/**",
+                "/usr/include/cairo/**",
                 "${workspaceFolder}/**"
             ],
             "defines": [],

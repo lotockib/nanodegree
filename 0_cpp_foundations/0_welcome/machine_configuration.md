@@ -60,6 +60,56 @@ Setup [c_cpp_properties.json](https://code.visualstudio.com/docs/cpp/config-linu
 
 ## How To Install Third Party Libraries
 
+### Intellisense
+
+Can add source file path, or install file path, to ```c_cpp_properties.json``` (sometimes important to add it first so its found first)
+```
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/0_cpp_foundations/4_route_planner_project/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/cairo/xlib/**",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
+```
+
+(although that gave an error for udacity project for some nested dependency, but I think would work in other circumstances)
+
+or
+
+```
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/local/include/io2d/**",
+                "/usr/include/cairo/**",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
+```
+
+### Build and Configure IDE
+
 Depends on how the developer setup CMake, but in general (this will build binaries in the build folder, which IDE can then point to for includes)
 ```
 mkdir build
@@ -68,7 +118,7 @@ cmake ..
 make
 ```
 
-Might have option to ```install``` to machine (this will put those same binaries in a common location, which IDE can also point to)
+Might have option to ```install``` to machine (this will put those same binaries in a common location, which IDE can also point to).  There is no rule but usually this installs to /usr/local (i.e., /usr/local/bin for binaries).
 ```
 mkdir build
 cd build
@@ -82,7 +132,15 @@ make -n install
 ```
 
 To uninstall, depends on developer, but in general
-```make uninstall```
+
+```
+make uninstall
+```
+
 or
-```sudo make uninstall```
+
+```
+sudo make uninstall
+```
+
 if that fails, can use ```make -n install``` to dry run and see where binaries were put, then manually undo those steps
