@@ -29,8 +29,19 @@ static std::optional<std::vector<std::byte>> ReadFile(const std::string &path)
 
 float get_user_coord(std::string coord_name) {
     float input;
-    std::cout << "Enter " << coord_name << ": ";
-    std::cin >> input;
+    while (true) {
+        std::cout << "Enter " << coord_name << ": ";
+        std::cin >> input;
+        auto check_bounds =
+            [&]
+            (float coord)
+            {
+                return (coord >= 0 && coord <= 100);
+            };
+        if ( check_bounds(input) )
+            break;
+        std::cout << "Error: coordinate must be between 0-100" << std::endl;
+    }
     return input;
 }
 

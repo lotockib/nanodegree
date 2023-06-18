@@ -139,7 +139,6 @@ std::vector<RouteModel::Node> RoutePlanner::ConstructFinalPath(
  * Perform A* Search
 */
 void RoutePlanner::AStarSearch() {
-    
     // Initialize starting node
     RouteModel::Node *current_node;
     current_node = start_node;
