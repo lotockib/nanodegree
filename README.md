@@ -3,7 +3,7 @@
 - [x] Download copy of review if possible
 - [ ] Update pointer section with clear examples of declaring pointers in various ways, passing as arguments, and returning
   - [ ] Refer to code review comments with suggestions
-- [ ] Read article about [commenting](https://visualstudiomagazine.com/Kunk0211)
+- [x] Read article about [commenting](https://visualstudiomagazine.com/Kunk0211)
 - [ ] Read book about [clean code](https://www.amazon.com/dp/0132350882)
 - [ ] Get more familiar with c++ standard library:
   - [ ] [overview](https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library)
