@@ -187,8 +187,12 @@ Open .cpp file and then...
 Add breakpoint, then...
 
 - Option A: ```Ctrl-Shift-P``` -> ```Cmake: Debug```
-- Option B: Click bottom of VS Code -> Choose Debug Build 
+- Option B: Click bottom of VS Code -> Choose Debug Build -> Click Debug icon
 -> Click Build
+- Option C (allows more configuration such as argument passing): Click ```Run and Debug``` -> ```gdb launch``` -> ```Create launch.json``` and set path to target, such as
+    ```
+    "program": "${workspaceFolder}/build/OSM_A_star_search",
+    ```
 - Option C: Is there a command line for this? [here](https://code.visualstudio.com/docs/cpp/cmake-linux).
 
 If not working, consult the VS Code instructions for CMake including Debug [here](https://code.visualstudio.com/docs/cpp/cmake-linux).
