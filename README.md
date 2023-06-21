@@ -8,7 +8,6 @@
   - [ ] [overview](https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library)
   - [ ] [summary](https://medium.com/@huytrongnguyen1985/lessons-learnt-from-the-clean-code-robert-c-martin-cecbe2b09139)
 - [ ] Read [Collaborative Collection of C++ Practices](https://github.com/cpp-best-practices/cppbestpractices)
-- [ ] Read [debugging instructions](https://knowledge.udacity.com/questions/267563#267762)
 - [ ] Read [overview of cmake](https://cmake.org/overview/)
 - [ ] Read cmake examples (bad link from udacity: https://review.udacity.com/Introduction%20to%20CMake%20by%20Example)
 - [ ] Read [overview of make](https://www.gnu.org/software/make/)
