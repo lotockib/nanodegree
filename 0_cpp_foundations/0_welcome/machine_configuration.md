@@ -49,10 +49,6 @@ Setup [c_cpp_properties.json](https://code.visualstudio.com/docs/cpp/config-linu
 - CMake Tools by Microsoft
 - cpplint by mine
 
-## Debugging
-
-**TODO**
-
 ## Other
 
 - **TODO** settings.json
@@ -144,3 +140,55 @@ sudo make uninstall
 ```
 
 if that fails, can use ```make -n install``` to dry run and see where binaries were put, then manually undo those steps
+
+
+## Build/Run/Debug: Single File
+
+Open .cpp file and then...
+
+### Build
+
+- Option A: ```Ctrl-Shift-P``` -> ```Run C/C++ File``` (this will also run)
+- Option B: ```Run C/C++ File``` in top right corner (this will also run)
+- Option C: ```g++ <filepath> <executable name>```
+
+### Run
+
+- Option A: ```Ctrl-Shift-P``` -> ```Run C/C++ File``` (this will also build)
+- Option B: ```Run C/C++ File``` in top right corner (this will also build)
+- Option C: ```./<executable path>```
+
+### Debug
+
+- Option A: ```Ctrl-Shift-P``` -> ```Debug C/C++ File```
+- Option B: Click ```Debug C/C++ File``` in top right corner
+- Option C: Command line ```TBD```
+
+## Build/Run/Debug: Multiple Files
+
+### Build
+
+- Option A: Manual Command line method: ```g++ <file1path> <file2path> ... <executable name>``` (TODO verify this is correct)
+- Option B: VS Code Plugin Method: ```Ctrl-Shift-P``` -> ```Cmake: Release```
+- Option C: CMake Command line method: 
+    ```
+    mkdir build
+    cd build
+    cmake ..
+    make
+    ```
+
+### Run 
+
+- Command line method: ```./<executable path>```
+
+### Debug
+
+Add breakpoint, then...
+
+- Option A: ```Ctrl-Shift-P``` -> ```Cmake: Debug```
+- Option B: Click bottom of VS Code -> Choose Debug Build 
+-> Click Build
+- Option C: Is there a command line for this? [here](https://code.visualstudio.com/docs/cpp/cmake-linux).
+
+If not working, consult the VS Code instructions for CMake including Debug [here](https://code.visualstudio.com/docs/cpp/cmake-linux).
