@@ -13,10 +13,20 @@ using std::cout;
 cout << "Hello!" << "\n";
 ```
 ## primitives
-What does primitives mean?
-```
-int i = 1
-```
+Built-in data types that can be used to declare variables.
+
+Integer
+Character
+Boolean
+Floating Point
+Double Floating Point
+Valueless or Void
+Wide Character
+
+[good explanation of data types](https://www.geeksforgeeks.org/cpp-data-types/)
+
+[cpp reference definitions](https://en.cppreference.com/w/cpp/language/types)
+
 ## vectors
 Efficient way to store a list of variables.
 ```

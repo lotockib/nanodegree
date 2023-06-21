@@ -17,7 +17,7 @@ Popular search algorithm for graphs.
   - For each step, identify number of expansions that have occurred
   - For next step, always choose one with leave number of expansions (g value)
 - A* procedure
-  - Uses heuristic function ie "h(x,y) <= distance to goal from x0,y0", aka h value
+  - Uses heuristic function ie "h(x,y) <= distance to goal from x0,y0", aka h value (see [code](./lesson_09_heuristic.cpp))
   - f value = g + h
   - Still use open list, g-value, but also record g-value + heuristic value (f value is sum)
   - Each step: g-value has information about distance already taken, heuristic value has information about distance remaining
