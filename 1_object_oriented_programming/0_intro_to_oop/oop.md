@@ -8,7 +8,7 @@ Classes are useful for user-defined data types.  Once class is created, you can 
 
 Structures are a user-defined type where you can aggregate other data.  Example including initialization:
 
-```
+```cpp
 struct Rectangle {
   float length{1};
   float width{1};
@@ -17,7 +17,7 @@ struct Rectangle {
 
 Then to declare a variable of this type
 
-```
+```cpp
 int value; // variable named value of type int
 Rectangle rectangle; // variable named rectangle of type Rectangle
 rectangle.length = 10; // set length member
@@ -34,7 +34,7 @@ Accessors are methods to get and set methods.
 
 Mutator is same public function name with different arguments.
 
-```
+```cpp
 struct Date {
   private:
     int day{1};
@@ -78,7 +78,29 @@ This can be a delicate balance, because on the one hand we want to group togethe
 
 #### Abstraction 
 
+Abstraction refers to the separation of a class's interface from the details of its implementation. The interface provides a way to interact with an object, while hiding the details and implementation of how the class works.
+
 Users only need to understand the interface, they don't need to know the details of how we work with the data.
+
+Example
+The String() function within this Date class is an example of abstraction.
+
+```cpp
+class Date {
+ public:
+  ...
+  std::string String() const;
+  ...
+};
+```
+
+The user is able to interact with the Date class through the String() function, but the user does not need to know about the implementation of either Date or String().
+
+For example, the user does not know, or need to know, that this object internally contains three int member variables. The user can just call the String() method to get data.
+
+If the designer of this class ever decides to change how the data is stored internally -- using a vector of ints instead of three separate ints, for example -- the user of the Date class will not need to know.
+
+In this [lesson file](./lesson_22_abstraction.cpp), the ```String()``` function abstracts away things like vectors and other details.
 
 ### Constructors
 
@@ -88,7 +110,7 @@ Can make custom contructors.  In general, want to instantiate all members.
 
 Default constructor.
 
-```
+```cpp
 class Date { 
   int day{1};
   int month{1};
@@ -105,7 +127,7 @@ In some cases, scopes can overlap, in which case the compiler may need assistanc
 Scope Resultion Operator
 :: is the scope resolution operator. We can use this operator to specify which namespace or class to search in order to resolve an identifier.
 
-```
+```cpp
 Person::move(); \\ Call the move the function that is a member of the Person class.
 std::map m; \\ Initialize the map container from the C++ Standard Library.  
 ```
@@ -114,6 +136,7 @@ Each class provides its own scope. We can use the scope resolution operator to s
 
 This becomes particularly useful if we want to separate class declaration from class definition.
 
+```cpp
 class Date {
  public:
   int Day() const { return day; }
@@ -135,11 +158,13 @@ class Date {
 void Date::Day(int day) {
   if (day >= 1 && day <= 31) Date::day = day;
 }
+```
 
 ### Namespaces
 
 Namespaces allow programmers to group logically related variables and functions together. Namespaces also help to avoid conflicts between to variables that have the same name in different parts of a program.
 
+```cpp
 namespace English {
 void Hello() { std::cout << "Hello, World!\n"; }
 }  // namespace English
@@ -152,6 +177,8 @@ int main() {
   English::Hello();
   Spanish::Hello();
 }
+```
+
 In this example, we have two different void Hello() functions. If we put both of these functions in the same namespace, they would conflict and the program would not compile. However, by declaring each of these functions in a separate namespace, they are able to co-exist. Furthermore, we can specify which function to call by prefixing Hello() with the appropriate namespace, followed by the :: operator.
 
 std Namespace
@@ -166,7 +193,7 @@ Classes like std::vector and functions like std::sort are defined within the std
 Initializer Lists
 Initializer lists initialize member variables to specific values, just before the class constructor runs. This initialization ensures that class members are automatically initialized when an instance of the class is created.
 
-```
+```cpp
 Date::Date(int day, int month, int year) : year_(y) {
   Day(day);
   Month(month);
@@ -191,6 +218,27 @@ The third reason is that attributes defined as references must use initializatio
 
 [Lesson file](./lesson_12_initializer_lists.cpp)
 
-## Accessor Functions
+### Accessor Functions
+
+Accessor Functions
+Accessor functions are public member functions that allow users to access an object's data, albeit indirectly.
+
+const
+Accessors should only retrieve data. They should not change the data stored in the object.
+
+The main role of the const specifier in accessor methods is to protect member data. When you specify a member function as const, the compiler will prohibit that function from changing any of the object's member data.
 
 [Video](https://youtu.be/HfVOiSpzFaA)
+
+[Lesson file](./lesson_15_accessors.cpp)
+
+### Mutator Functions
+
+A mutator ("setter") function can apply logic ("invariants") when updating member data.
+
+[Video](https://youtu.be/-WRtCE3MZB8)
+
+[Lesson file](./lesson_16_mutators.cpp)
+
+[Lesson file](./lesson_17_exercise.cpp)
+
