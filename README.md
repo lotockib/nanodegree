@@ -40,6 +40,8 @@
 
 [Introduction to OOP](./1_object_oriented_programming/0_intro_to_oop/oop.md)
 
+[Advanced OOP](./1_object_oriented_programming/1_advanced_oop/advanced_oop.md)
+
 # Useful Links
 [cpp core guidelines](https://github.com/isocpp/CppCoreGuidelines)
 
