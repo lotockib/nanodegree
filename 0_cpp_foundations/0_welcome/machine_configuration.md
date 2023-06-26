@@ -207,7 +207,7 @@ If not working, consult the VS Code instructions for CMake including Debug [here
 
 ## Writing Tests
 
-Write test functions using google's ```TEST``` macro.  Example from google [here](https://google.github.io/googletest/primer.html#simple-tests).  Simple example from nanodegree project [here](../4_route_planner_project/nanodegree-route-planner/test/utest_simple.cpp) below.  Note there is no main function here (not sure when that's required vs when not).
+Write test functions using google's ```TEST``` macro.  Example from google [here](https://google.github.io/googletest/primer.html#simple-tests).  Simple example from nanodegree project [here](../4_route_planner_project/nanodegree-route-planner/test/utest_example.cpp) below.  Note there is no main function here (not sure when that's required vs when not).
 
 ```cpp
 #include <gtest/gtest.h>
