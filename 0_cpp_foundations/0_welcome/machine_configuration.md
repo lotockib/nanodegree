@@ -201,14 +201,17 @@ If not working, consult the VS Code instructions for CMake including Debug [here
 
 # Unit Tests
 
+[Google Test Github](https://github.com/google/googletest)
+
 [Google Test Primer](https://google.github.io/googletest/primer.html)
 
 [Google Test Example Repo](https://github.com/bmorcos/gtest-example)
 
 ## Writing Tests
 
-Write test functions using google's ```TEST``` macro.  Example from google [here](https://google.github.io/googletest/primer.html#simple-tests).  Simple example from nanodegree project [here](../4_route_planner_project/nanodegree-route-planner/test/utest_example.cpp) below.  Note there is no main function here (not sure when that's required vs when not).
+Write test functions using google's ```TEST``` macro.  Example from google [here](https://google.github.io/googletest/primer.html#simple-tests).  Simple example from nanodegree project [here](https://github.com/lotockib/nanodegree-route-planner/blob/google_tests/test/utest_example.cpp) below.  Note there is no main function here (not sure when that's required vs when not).
 
+tests/utest_example.cpp
 ```cpp
 #include <gtest/gtest.h>
 #include <math.h>
@@ -234,16 +237,22 @@ TEST(SquaredTest, HandlesPositiveInput) {
 
 ## Building Tests
 
-One method on multi file projects that use CMake is to add an executable in CMakeLists.txt ([example](../4_route_planner_project/nanodegree-route-planner/CMakeLists.txt)).  
+One method on multi file projects that use CMake is to add an executable in CMakeLists.txt ([example](https://github.com/lotockib/nanodegree-route-planner/blob/google_tests/CMakeLists.txt)).  
 
-```cpp
+CMakeLists.txt
+```cmake
 # Isolated simple test for learning google tests
 add_executable(simple_test test/utest_simple.cpp)
 target_link_libraries(simple_test gtest_main)
 ```
 
-It will create an executable in the build folder, just like when making an executable for the project itself.  Another [example](https://github.com/bmorcos/gtest-example/blob/master/CMakeLists.txt).
+It will create an executable in the build folder, just like when making an executable for the project itself.
 
 ## Running Tests
 
-Same as programs, within build folder, run ```./<test_name>```.
+Same as programs, within build folder, run ```./<test_name>```.  From the example above:
+
+```
+cd build
+./simple_test
+```
