@@ -1,5 +1,4 @@
 # To Do
-- [ ] Add copy of compiler/linker image to readme and add more information
 - [ ] Add links to lesson files in readme maybe?
 - [ ] Update pointer section with clear examples of declaring pointers in various ways, passing as arguments, and returning
   - [ ] Refer to code review comments with suggestions

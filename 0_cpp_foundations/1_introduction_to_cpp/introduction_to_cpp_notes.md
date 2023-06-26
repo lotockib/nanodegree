@@ -1,5 +1,20 @@
 # Introduction to CPP
 
+## compiling
+
+C++ is a compiled programming language, which means that programmers use a program to compile their human-readable source code into machine-readable object and executable files. The program that performs this task is called a compiler.
+
+C++ does not have an "official" compiler. Instead, there are [many different compilers](https://www.stroustrup.com/compilers.html) that a programmer can use.
+
+GNU Compiler Collection is a popular, open-source, cross-platform compiler from the larger GNU Project. In particular, we use the g++ program, which is a command line executable that compiles C++ source code and automatically [links](https://en.wikipedia.org/wiki/Linker_(computing)) the C++ Standard Library.
+
+In order to use classes and functions from the C++ Standard Library, the compiler must have access to a compiled version of the standard library, stored in object files. Most compiler implementations, including GCC, include those object files as part of the installation process. In order to use the Standard Library facilities, the compiler must ["link"](https://en.wikipedia.org/wiki/Linker_(computing)) the standard library object files to the object files created from the programmer's source code.
+
+Once the compiler links together the necessary object files, it is able to generate a standalone executable file that can run on the operating system.
+
+![](./c-compilation-process.svg)
+
+
 ## commenting
 
 Find the balance: don't comment every line because the code should be somewhat readable, but include some comments on the intent and what it 'should do' (possibly in blocks)
