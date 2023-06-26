@@ -54,9 +54,9 @@ Setup [c_cpp_properties.json](https://code.visualstudio.com/docs/cpp/config-linu
 - **TODO** settings.json
 - **TODO** tasks.json
 
-## How To Install Third Party Libraries
+# How To Install Third Party Libraries
 
-### Intellisense
+## Intellisense
 
 Can add source file path, or install file path, to ```c_cpp_properties.json``` (sometimes important to add it first so its found first)
 ```
@@ -104,7 +104,7 @@ or
 }
 ```
 
-### Build and Configure IDE
+## Build and Configure IDE
 
 Depends on how the developer setup CMake, but in general (this will build binaries in the build folder, which IDE can then point to for includes)
 ```
@@ -141,6 +141,8 @@ sudo make uninstall
 
 if that fails, can use ```make -n install``` to dry run and see where binaries were put, then manually undo those steps
 
+
+# Build/Run/Debug
 
 ## Build/Run/Debug: Single File
 
@@ -196,3 +198,52 @@ Add breakpoint, then...
 - Option C: Is there a command line for this? [here](https://code.visualstudio.com/docs/cpp/cmake-linux).
 
 If not working, consult the VS Code instructions for CMake including Debug [here](https://code.visualstudio.com/docs/cpp/cmake-linux).
+
+# Unit Tests
+
+[Google Test Primer](https://google.github.io/googletest/primer.html)
+
+[Google Test Example Repo](https://github.com/bmorcos/gtest-example)
+
+## Writing Tests
+
+Write test functions using google's ```TEST``` macro.  Example from google [here](https://google.github.io/googletest/primer.html#simple-tests).  Simple example from nanodegree project [here](../4_route_planner_project/nanodegree-route-planner/test/utest_simple.cpp) below.  Note there is no main function here (not sure when that's required vs when not).
+
+```cpp
+#include <gtest/gtest.h>
+#include <math.h>
+
+int Squared(int n) {
+// Returns the factorial of n
+    return pow(n, 2);
+}; 
+
+// Tests factorial of 0.
+TEST(SquaredTest, HandlesZeroInput) {
+  EXPECT_EQ(Squared(0), 0);
+}
+
+// Tests factorial of positive numbers.
+TEST(SquaredTest, HandlesPositiveInput) {
+  EXPECT_EQ(Squared(1), 1);
+  EXPECT_EQ(Squared(2), 4);
+  EXPECT_EQ(Squared(3), 9);
+  EXPECT_EQ(Squared(8), 64);
+}
+```
+
+## Building Tests
+
+One method on multi file projects that use CMake is to add an executable in CMakeLists.txt ([example](../4_route_planner_project/nanodegree-route-planner/CMakeLists.txt)).  
+
+```cpp
+# Isolated simple test for learning google tests
+add_executable(simple_test test/utest_simple.cpp)
+target_link_libraries(simple_test gtest_main)
+```
+
+It will create an executable in the build folder, just like when making an executable for the project itself.  Another [example](https://github.com/bmorcos/gtest-example/blob/master/CMakeLists.txt).
+
+## Running Tests
+
+Same as programs, within build folder, run ```./<test_name>```.
