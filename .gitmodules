@@ -7,3 +7,6 @@
 [submodule "0_cpp_foundations/4_route_planner_project/gtest-example"]
 	path = 0_cpp_foundations/4_route_planner_project/gtest-example
 	url = git@github.com:bmorcos/gtest-example.git
+[submodule "1_object_oriented_programming/3_system_monitor_project/nanodegree-system-monitor"]
+	path = 1_object_oriented_programming/3_system_monitor_project/nanodegree-system-monitor
+	url = git@github.com:lotockib/nanodegree-system-monitor.git
