@@ -41,6 +41,10 @@
 
 [Advanced OOP](./1_object_oriented_programming/1_advanced_oop/advanced_oop.md)
 
+## Memory Management
+
+[Overview of Memory Types](./2_memory_management/0_introduction/readme_introduction.md)
+
 # Useful Links
 [cpp core guidelines](https://github.com/isocpp/CppCoreGuidelines)
 

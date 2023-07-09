@@ -306,3 +306,43 @@ In order to instantiate a templatized class, use a templatized constructor, for 
 In this example, you will see the difference between total and partial deduction.
 
 Deduction occurs when you instantiate an object without explicitly identifying the types. Instead, the compiler "deduces" the types. This can be helpful for writing code that is generic and can handle a variety of inputs.
+
+## Useful Resources From Reviewer
+
+[Basic Concepts of OOP using C++](https://www.geeksforgeeks.org/basic-concepts-of-object-oriented-programming-using-c/)
+
+[Short video on OOP](https://www.youtube.com/watch?v=ZOKLjJF54Xc)
+
+[4 Advantages of Object Oriented Programming](https://www.roberthalf.com/blog/salaries-and-skills/4-advantages-of-object-oriented-programming)
+
+[Procedural vs OOP](https://www.geeksforgeeks.org/differences-between-procedural-and-object-oriented-programming/)
+
+[Modern C++ Object Oriented Programming](https://www.ms.sapientia.ro/~manyi/teaching/c++/CPP_v1.2.pdf)
+
+[C++ Beginner Game Programming](https://www.youtube.com/playlist?list=PLqCJpWy5FohcehaXlCIt8sVBHBFFRVWsx)
+
+[OOP Overview for Python](https://www.youtube.com/watch?v=-DP1i2ZU9gk)
+
+[Code it Yourself - Role Playing Game](https://www.youtube.com/watch?v=xXXt3htgDok&list=PLrOv9FMX8xJE8NgepZR1etrsU63fDDGxO&index=18)
+
+[Polymorphism](https://www.youtube.com/watch?v=kxKKHKSMGIg&t=651s)
+
+[Pointers](https://www.youtube.com/watch?v=iChalAKXffs)
+
+[CppCon 2019 – Back to Basics Object Oriented Programming ](https://youtu.be/32tDTD9UJCE)
+
+[SOLID Design Principles](https://www.youtube.com/watch?v=rtmFCcjEgEw)
+
+[Design Patterns](https://www.geeksforgeeks.org/introduction-to-pattern-designing/)
+
+[Code Complete Book](http://aroma.vn/web/wp-content/uploads/2016/11/code-complete-2nd-edition-v413hav.pdf)
+
+[Pragmatic Programmer Book](https://www.cin.ufpe.br/~cavmj/104The%20Pragmatic%20Programmer,%20From%20Journeyman%20To%20Master%20-%20Andrew%20Hunt,%20David%20Thomas%20-%20Addison%20Wesley%20-%201999.pdf)
+
+[Design Patterns Book](http://www.uml.org.cn/c++/pdf/DesignPatterns.pdf)
+
+[Linux Shell Workshop](https://classroom.udacity.com/courses/ud206)
+
+[How to view running processes on linux](https://www.howtoforge.com/how-to-view-running-processes-on-linux/)
+
+[Learning Bash](https://guide.bash.academy/)

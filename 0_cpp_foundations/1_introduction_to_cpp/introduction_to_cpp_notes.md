@@ -21,6 +21,10 @@ Find the balance: don't comment every line because the code should be somewhat r
 
 [good article on commenting](https://visualstudiomagazine.com/Kunk0211)
 
+[another article](https://visualstudiomagazine.com/Kunk0211)
+
+[clean code by Robert Martin](https://ptgmedia.pearsoncmg.com/images/9780132350884/samplepages/9780132350884.pdf)
+
 ## cout
 ```
 #include <iostream>
