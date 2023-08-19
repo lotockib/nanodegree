@@ -1,4 +1,5 @@
 # To Do
+- [ ] Read [how to use a reference](https://www.learncpp.com/cpp-tutorial/using-a-language-reference/)
 - [ ] Add links to lesson files in readme maybe?
 - [ ] Update pointer section with clear examples of declaring pointers in various ways, passing as arguments, and returning
   - [ ] Refer to code review comments with suggestions
@@ -43,7 +44,9 @@
 
 ## Memory Management
 
-[Overview of Memory Types](./2_memory_management/0_introduction/readme_introduction.md)
+[Introduction](./2_memory_management/0_introduction/readme_introduction.md)
+
+[Overview of Memory Types](./2_memory_management/1_overview_of_memory_types/readme_overview_memory_types.md)
 
 # Useful Links
 [cpp core guidelines](https://github.com/isocpp/CppCoreGuidelines)
