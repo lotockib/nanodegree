@@ -47,8 +47,9 @@ Note that the numbers above represent the string "UDACITY" again. Also note that
 
 In order to use gdb locally, you will need to compile main.cpp with debugging symbols. This can be done with the -g option for g++:
 
-````cpp
-g++ -g main.cpp``````
+```cpp
+g++ -g main.cpp
+```
 
 You can then run gdb on the output with:
 
@@ -72,7 +73,7 @@ In a course on memory management we obviously need to take a look at the availab
 RAM / ROM Cache (L1, L2) Registers Virtual Memory Hard Disks, USB drives Let us look into these types more deeply: When the CPU of a computer needs to access memory, it wants to do this with minimal latency. Also, as large amounts of information need to be processed, the available memory should be sufficiently large with regard to the tasks we want to accomplish.
 
 Regrettably though, low latency and large memory are not compatible with each other (at least not at a reasonable price). In practice, the decision for low latency usually results in a reduction of the available storage capacity (and vice versa). This is the reason why a computer has multiple memory types that are arranged hierarchically. The following pyramid illustrates the principle:
-![[Pasted image 20230827205844.png]]ember/5d850b3d_c13-fig1/c13-fig1.png)
+![[Pasted image 20230827205844.png]]
 
 As you can see, the CPU and its ultra-fast (but small) registers used for short-term data storage reside at the top of the pyramid. Below are Cache and RAM, which belong to the category of temporary memory which quickly looses its content once power is cut off. Finally, there are permanent storage devices such as the ROM, hard drives as well as removable drives such as USB sticks.
 
