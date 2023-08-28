@@ -1,19 +1,21 @@
-# Route Planning
-
 ## Build
-To get started with your project, you can download the code from the GitHub repo [here](https://github.com/udacity/CppND-Route-Planning-Project), or you can use the workspace provided below. If you decide to work on this project on your local machine, you will need to install the dependencies outlined in the GitHub [README](https://github.com/udacity/CppND-Route-Planning-Project/blob/master/README.md) for the project, which can be difficult.
+
+To get started with your project, you can download the code from the GitHub repo [here](https://github.com/udacity/CppND-Route-Planning-Project "https://github.com/udacity/CppND-Route-Planning-Project"), or you can use the workspace provided below. If you decide to work on this project on your local machine, you will need to install the dependencies outlined in the GitHub [README](https://github.com/udacity/CppND-Route-Planning-Project/blob/master/README.md "https://github.com/udacity/CppND-Route-Planning-Project/blob/master/README.md") for the project, which can be difficult.
 
 In this classroom concept, you will see the instructions for building, running, and testing your project. In the next classroom concept, you will see a detailed overview of the project code, so you'll be well prepared to start work on the project.
 
 ### Build and Install Udacity repo and IO2d repo
+
 1. Clone library next to udacity repo
+    
     ```
     git clone git@github.com:udacity/CppND-Route-Planning-Project.git
     cd CppND-Route-Planning-Project.git
     git submodule update --init --recursive
     ```
-2. Follow build steps below, modified from [here](https://github.com/cpp-io2d/P0267_RefImpl/blob/master/BUILDING.md)
-
+    
+2. Follow build steps below, modified from [here](https://github.com/cpp-io2d/P0267_RefImpl/blob/master/BUILDING.md "https://github.com/cpp-io2d/P0267_RefImpl/blob/master/BUILDING.md")
+    
     ```
     sudo apt update
     sudo apt install build-essential
@@ -21,7 +23,7 @@ In this classroom concept, you will see the instructions for building, running, 
     sudo apt install libcairo2-dev
     sudo apt install libgraphicsmagick1-dev
     sudo apt install libpng-dev
-
+    
     git submodule add git@github.com:cpp-io2d/P0267_RefImpl.git
     cd P0267_RefImpl
     git submodule update --init --recursive
@@ -32,28 +34,35 @@ In this classroom concept, you will see the instructions for building, running, 
     make
     sudo make install (this installs library to machine at ```/usr/local/include/io2d```, can use ```find -name``` to figure it out)
     ```
-
+    
 3. Build udacity project
+    
     ```
     cd CppND-Route-Planning-Project
     mkdir build
     cd build
     cmake ..
     make
-    ``` 
-
+    ```
+    
 4. Run (should only open map, will do nothing else)
+    
     ```
     ./OSM_A_star_search
     ```
+    
 
 ## Test
+
 After build run tests....
+
 ```
 cd build
 ./test
 ```
+
 Should get output similar to this (errors because code isn't built)
+
 ```
 [06:48 PM][master]build $ ./test 
 Running main() from /home/blotocki/git/nanodegree/0_cpp_foundations/4_route_planner_project/CppND-Route-Planning-Project/thirdparty/googletest/googletest/src/gtest_main.cc
@@ -95,14 +104,16 @@ Segmentation fault (core dumped)
 ```
 
 ## Code Architecture
-![test](./code_diagram.png)
 
+![[Pasted image 20230827205210.png]]
 ## VS Code Configuration
+
 VS Code intellisense must be told where the includes are for external libraries, compiler path, and c++ version.
 
 For this project, I used these settings for intellisense to work:
 
 c_cpp_properties.json
+
 ```
 {
     "configurations": [
@@ -130,4 +141,4 @@ Example of extensibility is creating a child class that inherits from parent, an
 
 ## Project
 
-See [README](CppND-Route-Planning-ProjectCopy/README.md).
+See [README](https://file+.vscode-resource.vscode-cdn.net/home/blotocki/git/nanodegree/0_cpp_foundations/4_route_planner_project/CppND-Route-Planning-ProjectCopy/README.md "CppND-Route-Planning-ProjectCopy/README.md").

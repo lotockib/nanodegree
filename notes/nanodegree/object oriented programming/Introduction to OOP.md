@@ -1,12 +1,10 @@
-# Intro to Object Oriented Programming
-
 ## Overview
 
-Classes are useful for user-defined data types.  Once class is created, you can intstantiate multiple instances of a given class (blue car, red car).  Classes vary a lot depending on the application.
+Classes are useful for user-defined data types. Once class is created, you can intstantiate multiple instances of a given class (blue car, red car). Classes vary a lot depending on the application.
 
 ## Structures
 
-Structures are a user-defined type where you can aggregate other data.  Example including initialization:
+Structures are a user-defined type where you can aggregate other data. Example including initialization:
 
 ```cpp
 struct Rectangle {
@@ -28,7 +26,7 @@ By default, all stuct members are public.
 
 ### Access Specifiers
 
-Determines if members are private or public.  For Structure, members are public by default.  Private means access only by object, public means external code can access.  Protected means not public, but accessible by friends and children.
+Determines if members are private or public. For Structure, members are public by default. Private means access only by object, public means external code can access. Protected means not public, but accessible by friends and children.
 
 Accessors are methods to get and set methods.
 
@@ -52,7 +50,7 @@ By convention, programmers use structures when member variables are independent 
 
 By default, all class members are private.
 
-[Lesson file](./lesson_06_access_specifiers.cpp)
+[Lesson file](https://file+.vscode-resource.vscode-cdn.net/home/blotocki/git/nanodegree/1_object_oriented_programming/0_intro_to_oop/lesson_06_access_specifiers.cpp "./lesson_06_access_specifiers.cpp")
 
 ### Invariants
 
@@ -62,28 +60,27 @@ For example, in a Date class, an invariant would specify that the member variabl
 
 ### Encapsulation and Abstraction
 
-[High level explanation](https://youtu.be/KXojXgyW-O8)
+[High level explanation](https://youtu.be/KXojXgyW-O8 "https://youtu.be/KXojXgyW-O8")
 
 #### Encapsulation
 
 We bundle related data and operations in a class, and protect it.
 
-[Encapsulation](https://en.wikipedia.org/wiki/Encapsulation) is the grouping together of data and logic into a single unit. In object-oriented programming, classes encapsulate data and functions that operate on that data.
+[Encapsulation](https://en.wikipedia.org/wiki/Encapsulation "https://en.wikipedia.org/wiki/Encapsulation") is the grouping together of data and logic into a single unit. In object-oriented programming, classes encapsulate data and functions that operate on that data.
 
 This can be a delicate balance, because on the one hand we want to group together relevant data and functions, but on the hand we want to limit member functions to only those functions that need direct access to the representation of a class.
 
-[Video](https://youtu.be/1-j6AxEoK3c)
+[Video](https://youtu.be/1-j6AxEoK3c "https://youtu.be/1-j6AxEoK3c")
 
-[Lesson file](./lesson_14_encapsulation.cpp)
+[Lesson file](https://file+.vscode-resource.vscode-cdn.net/home/blotocki/git/nanodegree/1_object_oriented_programming/0_intro_to_oop/lesson_14_encapsulation.cpp "./lesson_14_encapsulation.cpp")
 
-#### Abstraction 
+#### Abstraction
 
 Abstraction refers to the separation of a class's interface from the details of its implementation. The interface provides a way to interact with an object, while hiding the details and implementation of how the class works.
 
 Users only need to understand the interface, they don't need to know the details of how we work with the data.
 
-Example
-The String() function within this Date class is an example of abstraction.
+Example The String() function within this Date class is an example of abstraction.
 
 ```cpp
 class Date {
@@ -100,13 +97,13 @@ For example, the user does not know, or need to know, that this object internall
 
 If the designer of this class ever decides to change how the data is stored internally -- using a vector of ints instead of three separate ints, for example -- the user of the Date class will not need to know.
 
-In this [lesson file](./lesson_22_abstraction.cpp), the ```String()``` function abstracts away things like vectors and other details.
+In this [lesson file](https://file+.vscode-resource.vscode-cdn.net/home/blotocki/git/nanodegree/1_object_oriented_programming/0_intro_to_oop/lesson_22_abstraction.cpp "./lesson_22_abstraction.cpp"), the `String()` function abstracts away things like vectors and other details.
 
 ### Constructors
 
-Can make custom contructors.  In general, want to instantiate all members.
+Can make custom contructors. In general, want to instantiate all members.
 
-[Lesson file](./lesson_10_constructors.cpp)
+[Lesson file](https://file+.vscode-resource.vscode-cdn.net/home/blotocki/git/nanodegree/1_object_oriented_programming/0_intro_to_oop/lesson_10_constructors.cpp "./lesson_10_constructors.cpp")
 
 Default constructor.
 
@@ -124,8 +121,7 @@ C++ allows different identifiers (variable and function names) to have the same 
 
 In some cases, scopes can overlap, in which case the compiler may need assistance in determining which identifier the programmer means to use. The process of determining which identifier to use is called "scope resolution".
 
-Scope Resultion Operator
-:: is the scope resolution operator. We can use this operator to specify which namespace or class to search in order to resolve an identifier.
+Scope Resultion Operator :: is the scope resolution operator. We can use this operator to specify which namespace or class to search in order to resolve an identifier.
 
 ```cpp
 Person::move(); \\ Call the move the function that is a member of the Person class.
@@ -181,17 +177,15 @@ int main() {
 
 In this example, we have two different void Hello() functions. If we put both of these functions in the same namespace, they would conflict and the program would not compile. However, by declaring each of these functions in a separate namespace, they are able to co-exist. Furthermore, we can specify which function to call by prefixing Hello() with the appropriate namespace, followed by the :: operator.
 
-std Namespace
-You are already familiar with the std namespace, even if you didn't realize quite what it was. std is the namespace used by the C++ Standard Library.
+std Namespace You are already familiar with the std namespace, even if you didn't realize quite what it was. std is the namespace used by the C++ Standard Library.
 
 Classes like std::vector and functions like std::sort are defined within the std namespace.
 
-[Lesson file](./lesson_11_scope_resolution.cpp)
+[Lesson file](https://file+.vscode-resource.vscode-cdn.net/home/blotocki/git/nanodegree/1_object_oriented_programming/0_intro_to_oop/lesson_11_scope_resolution.cpp "./lesson_11_scope_resolution.cpp")
 
 ### Initializer Lists
 
-Initializer Lists
-Initializer lists initialize member variables to specific values, just before the class constructor runs. This initialization ensures that class members are automatically initialized when an instance of the class is created.
+Initializer Lists Initializer lists initialize member variables to specific values, just before the class constructor runs. This initialization ensures that class members are automatically initialized when an instance of the class is created.
 
 ```cpp
 Date::Date(int day, int month, int year) : year_(y) {
@@ -212,37 +206,35 @@ A second reason is a bit of a technical paradox. If you have a const class attri
 
 The third reason is that attributes defined as references must use initialization lists.
 
-[Video 1](https://youtu.be/cqKuYu1oiow)
+[Video 1](https://youtu.be/cqKuYu1oiow "https://youtu.be/cqKuYu1oiow")
 
-[Video 2](https://youtu.be/Ms4Li58ZvwA)
+[Video 2](https://youtu.be/Ms4Li58ZvwA "https://youtu.be/Ms4Li58ZvwA")
 
-[Lesson file](./lesson_12_initializer_lists.cpp)
+[Lesson file](https://file+.vscode-resource.vscode-cdn.net/home/blotocki/git/nanodegree/1_object_oriented_programming/0_intro_to_oop/lesson_12_initializer_lists.cpp "./lesson_12_initializer_lists.cpp")
 
 ### Accessor Functions
 
-Accessor Functions
-Accessor functions are public member functions that allow users to access an object's data, albeit indirectly.
+Accessor Functions Accessor functions are public member functions that allow users to access an object's data, albeit indirectly.
 
-const
-Accessors should only retrieve data. They should not change the data stored in the object.
+const Accessors should only retrieve data. They should not change the data stored in the object.
 
 The main role of the const specifier in accessor methods is to protect member data. When you specify a member function as const, the compiler will prohibit that function from changing any of the object's member data.
 
-[Video](https://youtu.be/HfVOiSpzFaA)
+[Video](https://youtu.be/HfVOiSpzFaA "https://youtu.be/HfVOiSpzFaA")
 
-[Lesson file](./lesson_15_accessors.cpp)
+[Lesson file](https://file+.vscode-resource.vscode-cdn.net/home/blotocki/git/nanodegree/1_object_oriented_programming/0_intro_to_oop/lesson_15_accessors.cpp "./lesson_15_accessors.cpp")
 
-[Lesson file](./lesson_24_exercise.cpp)
+[Lesson file](https://file+.vscode-resource.vscode-cdn.net/home/blotocki/git/nanodegree/1_object_oriented_programming/0_intro_to_oop/lesson_24_exercise.cpp "./lesson_24_exercise.cpp")
 
 ### Mutator Functions
 
 A mutator ("setter") function can apply logic ("invariants") when updating member data.
 
-[Video](https://youtu.be/-WRtCE3MZB8)
+[Video](https://youtu.be/-WRtCE3MZB8 "https://youtu.be/-WRtCE3MZB8")
 
-[Lesson file](./lesson_16_mutators.cpp)
+[Lesson file](https://file+.vscode-resource.vscode-cdn.net/home/blotocki/git/nanodegree/1_object_oriented_programming/0_intro_to_oop/lesson_16_mutators.cpp "./lesson_16_mutators.cpp")
 
-[Lesson file](./lesson_17_exercise.cpp)
+[Lesson file](https://file+.vscode-resource.vscode-cdn.net/home/blotocki/git/nanodegree/1_object_oriented_programming/0_intro_to_oop/lesson_17_exercise.cpp "./lesson_17_exercise.cpp")
 
 ### Static Members
 
@@ -277,7 +269,7 @@ struct Kilometer {
 };
 ```
 
-[Lesson file](./lesson_25_static_members.cpp)
+[Lesson file](https://file+.vscode-resource.vscode-cdn.net/home/blotocki/git/nanodegree/1_object_oriented_programming/0_intro_to_oop/lesson_25_static_members.cpp "./lesson_25_static_members.cpp")
 
 ### Static Methods
 
@@ -285,4 +277,4 @@ In addition to static member variables, C++ supports static member functions (or
 
 One corollary to this is that we can method invoke a static member function without ever creating an instance of the class.
 
-[Lesson file](./lesson_26_static_methods.cpp)
+[Lesson file](https://file+.vscode-resource.vscode-cdn.net/home/blotocki/git/nanodegree/1_object_oriented_programming/0_intro_to_oop/lesson_26_static_methods.cpp "./lesson_26_static_methods.cpp")
