@@ -1,3 +1,5 @@
+- [ ]  Finish todos in [[Using the Heap]] when out of Longmont network
+- [ ] How to use std::move https://youtu.be/OWNeCTd7yQE
 - [ ]  Read [how to use a reference](https://www.learncpp.com/cpp-tutorial/using-a-language-reference/)
 - [ ]  Add links to lesson files in readme maybe?
 - [ ]  Update pointer section with clear examples of declaring pointers in various ways, passing as arguments, and returning

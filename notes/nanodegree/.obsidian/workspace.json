@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f72a1f29b016c228",
+        "id": "da74bf2d836fd5ec",
         "type": "tabs",
         "children": [
           {
-            "id": "27c4ce90d308ea88",
+            "id": "99cb61072b45df05",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "memory management/The Heap.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f2055a97ebc72734",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "memory management/Overview of Memory Types.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d1c358364ee5486",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "foundations/A* Search.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "150f5b9d0bbc8968",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "foundations/Introduction to C++.md",
+                "file": "to do.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#todo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "memory management/Overview of Memory Types.md",
+                "file": "to do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "memory management/Overview of Memory Types.md",
+                "file": "to do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,16 +125,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "memory management/Overview of Memory Types.md"
+                "file": "to do.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,15 +146,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f2055a97ebc72734",
+  "active": "99cb61072b45df05",
   "lastOpenFiles": [
-    "useful references.md",
+    "memory management/Using the Heap.md",
     "to do.md",
-    "memory management/The Heap.md",
     "memory management/Variables and Memory.md",
+    "attachments/Pasted image 20230828075224.png",
+    "().md",
+    "test.txt",
+    "attachments/Pasted image 20230828075751.png",
     "memory management/Overview of Memory Types.md",
-    "foundations/Route Planning Project.md",
+    "attachments/Pasted image 20230828075308.png",
+    "attachments/Pasted image 20230828075252.png",
+    "useful references.md",
+    "canvases",
+    "daily notes/2023-08-28.md",
+    "daily notes",
     "foundations/Multi File Programs.md",
+    "daily notes/2023-08-27.md",
+    "canvases/test canvas.canvas",
+    "foundations/Route Planning Project.md",
     "foundations/A* Search.md",
     "foundations/Introduction to C++.md",
     "foundations/Machine Configuration.md",
@@ -201,10 +175,6 @@
     "attachments/Pasted image 20230827210034.png",
     "attachments/Pasted image 20230827210023.png",
     "attachments/Pasted image 20230827210014.png",
-    "attachments/onlinegdb.gif",
-    "attachments/Pasted image 20230827205844.png",
-    "attachments/Pasted image 20230827205826.png",
-    "attachments/Pasted image 20230827205807.png",
     "object oriented programming/System Monitor Project.md",
     "object oriented programming/Advanced OOP.md",
     "object oriented programming/Introduction to OOP.md",
