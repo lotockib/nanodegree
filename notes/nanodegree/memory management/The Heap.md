@@ -1,5 +1,3 @@
-# The Heap
-
 ## Heap Memory (or Dynamic Memory, Free Store)
 
 Heap memory, also know as dynamic memory , is an important resource available to programs (and programmers) to store data. The following diagram again shows the layout of virtual memory with the heap being right above the BSS and Data segment.
@@ -23,12 +21,10 @@ When memory is allocated or deallocated on the stack, the stack pointer is simpl
 ### Memory Fragmentation
 
 Let us construct a theoretic example of how memory on the heap can become fragmented: Suppose we are interleaving the allocation of two data types X and Y in the following fashion: First, we allocate a block of memory for a variable of type X, then another block for Y and so on in a repeated manner until some upper bound is reached. At the end of this operation, the heap might look like the following:
-
-![Image showing fragmented blocks of memory](https://video.udacity-data.com/topher/2019/September/5d893546_c31-fig2/c31-fig2.png)
+![[Pasted image 20230827210238.png]]
 
 At some point, we might then decide to deallocate all variables of type Y, leading to empty spaces in between the remaining variables of type X. In between two blocks of type "X", no memory for an additional "X" could now be squeezed in this example.
-
-![Image showing memory with empty spaces between variables of type x.](https://video.udacity-data.com/topher/2019/September/5d893561_c31-fig3/c31-fig3.png)
+![[Pasted image 20230827210241.png]]
 
 A classic symptom of memory fragmentation is that you try to allocate a large block and you can’t, even though you appear to have enough memory free. On systems with virtual memory however, this is less of a problem, because large allocations only need to be contiguous in virtual address space, not in physical address space.
 
@@ -64,7 +60,7 @@ Memory allocated with malloc or calloc is not subject to the familiar rules of v
 
 ## New and Delete
 
-New/delete calls the constructor automatically.  They are also operators, not functions, so they can be overloaded for custom behavior.
+New/delete calls the constructor automatically. They are also operators, not functions, so they can be overloaded for custom behavior.
 
 Reasons for overloading new and delete
 
@@ -87,13 +83,9 @@ It is very easy to add customized behavior, such as overwriting deallocated memo
 
 Valgrind is one tool
 
-```valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --log-file=/home/workspace/valgrind-out.txt /home/workspace/a.out
-```
-
 ## Rule of 5 (Extension of Rule of 3)
 
-The Rule of Five¶
-By adding both the move constructor and the move assignment operator to our MyMovableClass, we have adhered to the Rule of Five. This rule is an extension of the Rule of Three which we have already seen and exists since the introduction of the C++11 standard. The Rule of Five is especially important in resource management, where unnecessary copying needs to be avoided due to limited resources and performance reasons. Also, all the STL container classes such as std::vector implement the Rule of Five and use move semantics for increased efficiency.
+The Rule of Five¶ By adding both the move constructor and the move assignment operator to our MyMovableClass, we have adhered to the Rule of Five. This rule is an extension of the Rule of Three which we have already seen and exists since the introduction of the C++11 standard. The Rule of Five is especially important in resource management, where unnecessary copying needs to be avoided due to limited resources and performance reasons. Also, all the STL container classes such as std::vector implement the Rule of Five and use move semantics for increased efficiency.
 
 The Rule of Five states that if you have to write one of the functions listed below then you should consider implementing all of them with a proper resource management policy in place. If you forget to implement one or more, the compiler will usually generate the missing ones (without a warning) but the default versions might not be suitable for the purpose you have in mind. The five functions are:
 

@@ -1,19 +1,15 @@
-# Advanced OOP
-
 ## Summary
 
-[Summary video](https://youtu.be/QR68Vcr-XTw)
+[Summary video](https://youtu.be/QR68Vcr-XTw "https://youtu.be/QR68Vcr-XTw")
 
-[Another video](https://youtu.be/gWcAMxhNOcg)
+[Another video](https://youtu.be/gWcAMxhNOcg "https://youtu.be/gWcAMxhNOcg")
 
 ## Inheritance
 
-Inheritence
-In our everyday life, we tend to divide things into groups, based on their shared characteristics. Here are some groups that you have probably used yourself: electronics, tools, vehicles, or plants.
+Inheritence In our everyday life, we tend to divide things into groups, based on their shared characteristics. Here are some groups that you have probably used yourself: electronics, tools, vehicles, or plants.
 
 Sometimes these groups have hierarchies. For example, computers and smartphones are both types of electronics, but computers and smartphones are also groups in and of themselves. You can imagine a tree with "electronics" at the top, and "computers" and "smartphones" each as children of the "electronics" node.
-
-![](./inheritance-example.png)
+![[Pasted image 20230827205540.png]]
 
 Object-oriented programming uses the same principles! For instance, imagine a Vehicle class:
 
@@ -46,21 +42,21 @@ public:
 };
 ```
 
-[Lesson example](./lesson_03_inheritance.cpp)
+[Lesson example](https://file+.vscode-resource.vscode-cdn.net/home/blotocki/git/nanodegree/1_object_oriented_programming/1_advanced_oop/lesson_03_inheritance.cpp "./lesson_03_inheritance.cpp")
 
 ### Inherited Access Specifiers
 
 Just as access specifiers (i.e. public, protected, and private) define which class members users can access, the same access modifiers also define which class members users of a derived classes can access.
 
-[Public inheritance](https://en.cppreference.com/w/cpp/language/derived_class#Public_inheritance): the public and protected members of the base class listed after the specifier keep their member access in the derived class
+[Public inheritance](https://en.cppreference.com/w/cpp/language/derived_class#Public_inheritance "https://en.cppreference.com/w/cpp/language/derived_class#Public_inheritance"): the public and protected members of the base class listed after the specifier keep their member access in the derived class
 
-[Protected inheritance](https://en.cppreference.com/w/cpp/language/derived_class#Protected_inheritance): the public and protected members of the base class listed after the specifier are protected members of the derived class
+[Protected inheritance](https://en.cppreference.com/w/cpp/language/derived_class#Protected_inheritance "https://en.cppreference.com/w/cpp/language/derived_class#Protected_inheritance"): the public and protected members of the base class listed after the specifier are protected members of the derived class
 
-[Private inheritance](https://en.cppreference.com/w/cpp/language/derived_class#Private_inheritance): the public and protected members of the base class listed after the specifier are private members of the derived class
+[Private inheritance](https://en.cppreference.com/w/cpp/language/derived_class#Private_inheritance "https://en.cppreference.com/w/cpp/language/derived_class#Private_inheritance"): the public and protected members of the base class listed after the specifier are private members of the derived class
 
-[Lesson example](./lesson_04_access_specifiers.cpp)
+[Lesson example](https://file+.vscode-resource.vscode-cdn.net/home/blotocki/git/nanodegree/1_object_oriented_programming/1_advanced_oop/lesson_04_access_specifiers.cpp "./lesson_04_access_specifiers.cpp")
 
-[Lesson example](./lesson_05_exercise.cpp)
+[Lesson example](https://file+.vscode-resource.vscode-cdn.net/home/blotocki/git/nanodegree/1_object_oriented_programming/1_advanced_oop/lesson_05_exercise.cpp "./lesson_05_exercise.cpp")
 
 ## Composition
 
@@ -74,13 +70,13 @@ From the standpoint of inheritance, a cat "is a" mammal.
 
 There is no hard and fast rule about when to prefer composition over inheritance. In general, if a class needs only extend a small amount of functionality beyond what is already offered by another class, it makes sense to inherit from that other class. However, if a class needs to contain functionality from a variety of otherwise unrelated classes, it makes sense to compose the class from those other classes.
 
-[Lesson example](./lesson_06_composition.cpp)
-
+[Lesson example](https://file+.vscode-resource.vscode-cdn.net/home/blotocki/git/nanodegree/1_object_oriented_programming/1_advanced_oop/lesson_06_composition.cpp "./lesson_06_composition.cpp")
 
 ## Friends
+
 In C++, friend classes provide an alternative inheritance mechanism to derived classes. The main difference between classical inheritance and friend inheritance is that a friend class can access private members of the base class, which isn't the case for classical inheritance. In classical inheritance, a derived class can only access public and protected members of the base class.
 
-[Lesson file](./lesson_08_friends.cpp)
+[Lesson file](https://file+.vscode-resource.vscode-cdn.net/home/blotocki/git/nanodegree/1_object_oriented_programming/1_advanced_oop/lesson_08_friends.cpp "./lesson_08_friends.cpp")
 
 ## Polymorphism
 
@@ -116,7 +112,7 @@ private:
 };
 ```
 
-[Lesson file](./lesson_09_overloading.cpp)
+[Lesson file](https://file+.vscode-resource.vscode-cdn.net/home/blotocki/git/nanodegree/1_object_oriented_programming/1_advanced_oop/lesson_09_overloading.cpp "./lesson_09_overloading.cpp")
 
 ## Operator Overloading
 
@@ -134,7 +130,7 @@ Complex operator+(const Complex& addend) {
 
 Imagine vector addition. You might want to perform vector addition on a pair of points to add their x and y components. The compiler won't recognize this type of operation on its own, because this data is user defined. However, you can overload the + operator so it performs the action that you want to implement.
 
-[Lesson file](./lesson_10_operator_overloading.cpp)
+[Lesson file](https://file+.vscode-resource.vscode-cdn.net/home/blotocki/git/nanodegree/1_object_oriented_programming/1_advanced_oop/lesson_10_operator_overloading.cpp "./lesson_10_operator_overloading.cpp")
 
 ## Virtual Functions
 
@@ -159,14 +155,13 @@ class Shape {
 
 Virtual functions can be defined by derived classes, but this is not required. However, if we mark the virtual function with = 0 in the base class, then we are declaring the function to be a pure virtual function. This means that the base class does not define this function. A derived class must define this function, or else the derived class will be abstract.
 
-[Lesson file](./lesson_11_virtual_functions.cpp)
+[Lesson file](https://file+.vscode-resource.vscode-cdn.net/home/blotocki/git/nanodegree/1_object_oriented_programming/1_advanced_oop/lesson_11_virtual_functions.cpp "./lesson_11_virtual_functions.cpp")
 
 ## Polymorphism: Overriding
 
 "Overriding" a function occurs when:
 
-A base class declares a [virtual function](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#glossary function).
-A derived class overrides that virtual function by defining its own implementation with an identical function signature (i.e. the same function name and argument types).
+A base class declares a [virtual function]([http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#glossary](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#glossary "http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#glossary") function). A derived class overrides that virtual function by defining its own implementation with an identical function signature (i.e. the same function name and argument types).
 
 ```cpp
 class Animal {
@@ -186,9 +181,10 @@ Furthermore, because Animal contains a pure virtual function, the user cannot in
 
 Cat, however, inherits from Animal and overrides Animal::Talk() with Cat::Talk(), which is defined. Therefore, it is possible to instantiate an object of type Cat.
 
-[Lesson file](./lesson_12_overriding.cpp)
+[Lesson file](https://file+.vscode-resource.vscode-cdn.net/home/blotocki/git/nanodegree/1_object_oriented_programming/1_advanced_oop/lesson_12_overriding.cpp "./lesson_12_overriding.cpp")
 
 ## Function Hiding
+
 Function hiding is closely related, but distinct from, overriding.
 
 A derived class hides a base class function, as opposed to overriding it, if the base class function is not specified to be virtual.
@@ -241,27 +237,27 @@ This specification tells both the compiler and the human programmer that the pur
 
 Specifying a function as override is good practice, as it empowers the compiler to verify the code, and communicates the intention of the code to future users.
 
-[Lesson file](./lesson_13_overriding.cpp)
+[Lesson file](https://file+.vscode-resource.vscode-cdn.net/home/blotocki/git/nanodegree/1_object_oriented_programming/1_advanced_oop/lesson_13_overriding.cpp "./lesson_13_overriding.cpp")
 
 ## Multiple Inheritance
 
 A single class inherits from multiple classes.
 
-[Video](https://youtu.be/jEoPLBdLLsw)
+[Video](https://youtu.be/jEoPLBdLLsw "https://youtu.be/jEoPLBdLLsw")
 
-[The "diamond problem"](https://youtu.be/p29phGPfKnQ)
+[The "diamond problem"](https://youtu.be/p29phGPfKnQ "https://youtu.be/p29phGPfKnQ")
 
 The Core Guidelines have some worthwhile recommendations about how and when to use multiple inheritance:
 
-[Use multiple inheritance to represent multiple distinct interfaces](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c135-use-multiple-inheritance-to-represent-multiple-distinct-interfaces)
+[Use multiple inheritance to represent multiple distinct interfaces](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c135-use-multiple-inheritance-to-represent-multiple-distinct-interfaces "http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c135-use-multiple-inheritance-to-represent-multiple-distinct-interfaces")
 
-["Use multiple inheritance to represent the union of implementation attributes"](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c136-use-multiple-inheritance-to-represent-the-union-of-implementation-attributes)
+["Use multiple inheritance to represent the union of implementation attributes"](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c136-use-multiple-inheritance-to-represent-the-union-of-implementation-attributes "http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c136-use-multiple-inheritance-to-represent-the-union-of-implementation-attributes")
 
 ## Generic Programming
 
-Can use Template to build classes with different types of data.  This is generic programming.
+Can use Template to build classes with different types of data. This is generic programming.
 
-[Video](https://youtu.be/k2Hai5sBemU)
+[Video](https://youtu.be/k2Hai5sBemU "https://youtu.be/k2Hai5sBemU")
 
 ## Templates
 
@@ -295,11 +291,11 @@ We use the keyword template to specify which function is generic. Generic code i
 
 Besides template, the keyword typename (or, alternatively, class) specifies the generic type in the function prototype. The parameters that follow typename (or class) represent generic types in the function declaration.
 
-In order to instantiate a templatized class, use a templatized constructor, for example: Sum<double>(20.0, 13.7). You might recognize this form as the same form used to construct a vector. That's because vectors are indeed a generic class!
+In order to instantiate a templatized class, use a templatized constructor, for example: Sum(20.0, 13.7). You might recognize this form as the same form used to construct a vector. That's because vectors are indeed a generic class!
 
-[Lesson file](./lesson_15_template.cpp)
+[Lesson file](https://file+.vscode-resource.vscode-cdn.net/home/blotocki/git/nanodegree/1_object_oriented_programming/1_advanced_oop/lesson_15_template.cpp "./lesson_15_template.cpp")
 
-[Lesson file](./lesson_16_template.cpp)
+[Lesson file](https://file+.vscode-resource.vscode-cdn.net/home/blotocki/git/nanodegree/1_object_oriented_programming/1_advanced_oop/lesson_16_template.cpp "./lesson_16_template.cpp")
 
 ## Deduction
 
@@ -309,40 +305,40 @@ Deduction occurs when you instantiate an object without explicitly identifying t
 
 ## Useful Resources From Reviewer
 
-[Basic Concepts of OOP using C++](https://www.geeksforgeeks.org/basic-concepts-of-object-oriented-programming-using-c/)
+[Basic Concepts of OOP using C++](https://www.geeksforgeeks.org/basic-concepts-of-object-oriented-programming-using-c/ "https://www.geeksforgeeks.org/basic-concepts-of-object-oriented-programming-using-c/")
 
-[Short video on OOP](https://www.youtube.com/watch?v=ZOKLjJF54Xc)
+[Short video on OOP](https://www.youtube.com/watch?v=ZOKLjJF54Xc "https://www.youtube.com/watch?v=ZOKLjJF54Xc")
 
-[4 Advantages of Object Oriented Programming](https://www.roberthalf.com/blog/salaries-and-skills/4-advantages-of-object-oriented-programming)
+[4 Advantages of Object Oriented Programming](https://www.roberthalf.com/blog/salaries-and-skills/4-advantages-of-object-oriented-programming "https://www.roberthalf.com/blog/salaries-and-skills/4-advantages-of-object-oriented-programming")
 
-[Procedural vs OOP](https://www.geeksforgeeks.org/differences-between-procedural-and-object-oriented-programming/)
+[Procedural vs OOP](https://www.geeksforgeeks.org/differences-between-procedural-and-object-oriented-programming/ "https://www.geeksforgeeks.org/differences-between-procedural-and-object-oriented-programming/")
 
-[Modern C++ Object Oriented Programming](https://www.ms.sapientia.ro/~manyi/teaching/c++/CPP_v1.2.pdf)
+[Modern C++ Object Oriented Programming](https://www.ms.sapientia.ro/~manyi/teaching/c++/CPP_v1.2.pdf "https://www.ms.sapientia.ro/~manyi/teaching/c++/CPP_v1.2.pdf")
 
-[C++ Beginner Game Programming](https://www.youtube.com/playlist?list=PLqCJpWy5FohcehaXlCIt8sVBHBFFRVWsx)
+[C++ Beginner Game Programming](https://www.youtube.com/playlist?list=PLqCJpWy5FohcehaXlCIt8sVBHBFFRVWsx "https://www.youtube.com/playlist?list=PLqCJpWy5FohcehaXlCIt8sVBHBFFRVWsx")
 
-[OOP Overview for Python](https://www.youtube.com/watch?v=-DP1i2ZU9gk)
+[OOP Overview for Python](https://www.youtube.com/watch?v=-DP1i2ZU9gk "https://www.youtube.com/watch?v=-DP1i2ZU9gk")
 
-[Code it Yourself - Role Playing Game](https://www.youtube.com/watch?v=xXXt3htgDok&list=PLrOv9FMX8xJE8NgepZR1etrsU63fDDGxO&index=18)
+[Code it Yourself - Role Playing Game](https://www.youtube.com/watch?v=xXXt3htgDok&list=PLrOv9FMX8xJE8NgepZR1etrsU63fDDGxO&index=18 "https://www.youtube.com/watch?v=xXXt3htgDok&list=PLrOv9FMX8xJE8NgepZR1etrsU63fDDGxO&index=18")
 
-[Polymorphism](https://www.youtube.com/watch?v=kxKKHKSMGIg&t=651s)
+[Polymorphism](https://www.youtube.com/watch?v=kxKKHKSMGIg&t=651s "https://www.youtube.com/watch?v=kxKKHKSMGIg&t=651s")
 
-[Pointers](https://www.youtube.com/watch?v=iChalAKXffs)
+[Pointers](https://www.youtube.com/watch?v=iChalAKXffs "https://www.youtube.com/watch?v=iChalAKXffs")
 
-[CppCon 2019 – Back to Basics Object Oriented Programming ](https://youtu.be/32tDTD9UJCE)
+[CppCon 2019 – Back to Basics Object Oriented Programming](https://youtu.be/32tDTD9UJCE "https://youtu.be/32tDTD9UJCE")
 
-[SOLID Design Principles](https://www.youtube.com/watch?v=rtmFCcjEgEw)
+[SOLID Design Principles](https://www.youtube.com/watch?v=rtmFCcjEgEw "https://www.youtube.com/watch?v=rtmFCcjEgEw")
 
-[Design Patterns](https://www.geeksforgeeks.org/introduction-to-pattern-designing/)
+[Design Patterns](https://www.geeksforgeeks.org/introduction-to-pattern-designing/ "https://www.geeksforgeeks.org/introduction-to-pattern-designing/")
 
-[Code Complete Book](http://aroma.vn/web/wp-content/uploads/2016/11/code-complete-2nd-edition-v413hav.pdf)
+[Code Complete Book](http://aroma.vn/web/wp-content/uploads/2016/11/code-complete-2nd-edition-v413hav.pdf "http://aroma.vn/web/wp-content/uploads/2016/11/code-complete-2nd-edition-v413hav.pdf")
 
-[Pragmatic Programmer Book](https://www.cin.ufpe.br/~cavmj/104The%20Pragmatic%20Programmer,%20From%20Journeyman%20To%20Master%20-%20Andrew%20Hunt,%20David%20Thomas%20-%20Addison%20Wesley%20-%201999.pdf)
+[Pragmatic Programmer Book](https://www.cin.ufpe.br/~cavmj/104The%20Pragmatic%20Programmer,%20From%20Journeyman%20To%20Master%20-%20Andrew%20Hunt,%20David%20Thomas%20-%20Addison%20Wesley%20-%201999.pdf "https://www.cin.ufpe.br/~cavmj/104The%20Pragmatic%20Programmer,%20From%20Journeyman%20To%20Master%20-%20Andrew%20Hunt,%20David%20Thomas%20-%20Addison%20Wesley%20-%201999.pdf")
 
-[Design Patterns Book](http://www.uml.org.cn/c++/pdf/DesignPatterns.pdf)
+[Design Patterns Book](http://www.uml.org.cn/c++/pdf/DesignPatterns.pdf "http://www.uml.org.cn/c++/pdf/DesignPatterns.pdf")
 
-[Linux Shell Workshop](https://classroom.udacity.com/courses/ud206)
+[Linux Shell Workshop](https://classroom.udacity.com/courses/ud206 "https://classroom.udacity.com/courses/ud206")
 
-[How to view running processes on linux](https://www.howtoforge.com/how-to-view-running-processes-on-linux/)
+[How to view running processes on linux](https://www.howtoforge.com/how-to-view-running-processes-on-linux/ "https://www.howtoforge.com/how-to-view-running-processes-on-linux/")
 
-[Learning Bash](https://guide.bash.academy/)
+[Learning Bash](https://guide.bash.academy/ "https://guide.bash.academy/")

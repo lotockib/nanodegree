@@ -1,0 +1,22 @@
+- [ ]  Read [how to use a reference](https://www.learncpp.com/cpp-tutorial/using-a-language-reference/)
+- [ ]  Add links to lesson files in readme maybe?
+- [ ]  Update pointer section with clear examples of declaring pointers in various ways, passing as arguments, and returning
+    - [ ]  Refer to code review comments with suggestions
+- [ ]  Read book about [clean code](https://www.amazon.com/dp/0132350882)
+- [ ]  Get more familiar with c++ standard library:
+    - [ ]  [overview](https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library)
+    - [ ]  [summary](https://medium.com/@huytrongnguyen1985/lessons-learnt-from-the-clean-code-robert-c-martin-cecbe2b09139)
+- [ ]  Read [Collaborative Collection of C++ Practices](https://github.com/cpp-best-practices/cppbestpractices)
+- [ ]  Read [overview of cmake](https://cmake.org/overview/)
+- [ ]  Read cmake examples (bad link from udacity: [https://review.udacity.com/Introduction%20to%20CMake%20by%20Example](https://review.udacity.com/Introduction%20to%20CMake%20by%20Example))
+- [ ]  Read [overview of make](https://www.gnu.org/software/make/)
+- [ ]  Read [google tests concept](https://chromium.googlesource.com/external/github.com/google/googletest/+/refs/tags/release-1.8.0/googletest/docs/Primer.md)
+- [ ]  Read (bad link from udacity [https://developer.ibm.com/technologies/systems/articles/au-googletestingframework/](https://developer.ibm.com/technologies/systems/articles/au-googletestingframework/))
+- [ ]  Watch [google test tutorial](https://www.youtube.com/watch?v=16FI1-d2P4E)
+- [ ]  Read [more advanced best practices](https://hackernoon.com/few-simple-rules-for-good-coding-my-15-years-experience-96cb29d4acd9)
+- [ ]  Read [tips for code optimization](http://www.thegeekstuff.com/2015/01/c-cpp-code-optimization/)
+- [ ]  Read [programming techniques](http://www.whigg.ac.cn/resource/program/CPP/201010/P020101023562491092566.pdf)
+- [ ]  Add lambda function to readme
+- [ ]  Read [lambda functions](https://en.cppreference.com/w/cpp/language/lambda)
+- [ ]  Read [lambda functions 2](https://docs.microsoft.com/en-us/cpp/cpp/lambda-expressions-in-cpp?view=vs-2019)
+- [ ]  Read [big O notation](https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/)
