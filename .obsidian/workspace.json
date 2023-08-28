@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "6311d1b20de8ebe4",
+    "type": "split",
+    "children": [
+      {
+        "id": "941c23a67f381375",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f367672936cc29d7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ac7ab773f12ef277",
+    "type": "split",
+    "children": [
+      {
+        "id": "39e5f85e53d0a27e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4eb708ec0cd84ab7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse"
+              }
+            }
+          },
+          {
+            "id": "436832b5c064be2e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#todo",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5e18d620c7fd607d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6cc31279e5c25fab",
+    "type": "split",
+    "children": [
+      {
+        "id": "00559b8cac41f5de",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f218f5c32f1161b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "009df09dd056e697",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "476f76dd06dd0d68",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "fa06f8dde195a61b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "bffac9a62ac8d4c9",
+            "type": "leaf",
+            "state": {
+              "type": "trello-plugin",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "4eb708ec0cd84ab7",
+  "lastOpenFiles": [
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/pugixml/tests/data_fuzz_xpath/predicate.xpath",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/pugixml/tests/data_fuzz_xpath/path.xpath",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/pugixml/tests/data_fuzz_xpath/math.xpath",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/pugixml/tests/data_fuzz_xpath/functions.xpath",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/pugixml/tests/data_fuzz_xpath/basic.xpath",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/pugixml/tests/data/тест.xml",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/pugixml/tests/data/utftest_utf8_nodecl.xml",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/pugixml/tests/data/utftest_utf8_clean.xml",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/pugixml/tests/data/utftest_utf8_bom.xml",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/pugixml/tests/data/utftest_utf8.xml",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/pugixml/tests/data/utftest_utf32_le_nodecl.xml",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/pugixml/docs/images/vs2010_link2.png",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/pugixml/docs/images/vs2010_link1.png",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/pugixml/docs/images/vs2005_pch3.png",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/pugixml/docs/images/vs2005_pch4.png",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/pugixml/docs/images/vs2005_pch2.png",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/pugixml/docs/images/vs2005_pch1.png",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/pugixml/docs/images/vs2005_link1.png",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/pugixml/docs/images/vs2005_link2.png",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/pugixml/docs/images/dom_tree.png",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/pugixml/README.md",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/pugixml/LICENSE.md",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/googletest/googletest/include/gtest/internal/custom/README.md",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/googletest/googletest/docs/samples.md",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/googletest/googletest/docs/primer.md",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/googletest/googletest/docs/faq.md",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/googletest/googletest/docs/advanced.md",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/googletest/googletest/docs/XcodeGuide.md",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/googletest/googletest/docs/PumpManual.md",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/googletest/googletest/docs/Pkgconfig.md",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/googletest/googletest/README.md",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/googletest/googlemock/include/gmock/internal/custom/README.md",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/googletest/googlemock/docs/KnownIssues.md",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/googletest/googlemock/docs/FrequentlyAskedQuestions.md",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/googletest/googlemock/docs/ForDummies.md",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/googletest/googlemock/docs/Documentation.md",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/googletest/googlemock/docs/DesignDoc.md",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/googletest/googlemock/docs/CookBook.md",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/googletest/googlemock/docs/CheatSheet.md",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/googletest/googlemock/README.md",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/googletest/README.md",
+    "foundations/code/4_route_planner_project/nanodegree-route-planner/thirdparty/googletest/CONTRIBUTING.md",
+    "foundations/code/4_route_planner_project/P0267_RefImpl/P0267_RefImpl/Tests/Catch2/docs/why-catch.md",
+    "foundations/code/4_route_planner_project/P0267_RefImpl/P0267_RefImpl/Tests/Catch2/docs/tutorial.md",
+    "foundations/code/4_route_planner_project/P0267_RefImpl/P0267_RefImpl/Tests/Catch2/docs/tostring.md",
+    "foundations/code/4_route_planner_project/P0267_RefImpl/P0267_RefImpl/Tests/Catch2/artwork/catch2-logo-small.png",
+    "canvases/test canvas.canvas",
+    "notes/nanodegree/canvases/test canvas.canvas"
+  ]
+}
