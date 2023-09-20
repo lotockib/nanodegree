@@ -244,7 +244,7 @@ A map (alternatively hash table, hash map, or dictionary) is a data structure th
 
 Example
 
-```
+```cpp
 #include <iostream>
 #include <vector>
 #include <unordered_map>
