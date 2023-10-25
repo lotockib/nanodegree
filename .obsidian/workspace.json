@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f367672936cc29d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "object oriented programming/Introduction to OOP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "dd6ed8c8510d3948",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concurrency/Concurrency.md",
+                "file": "concurrency/1-Passing Data Between Threads.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "static",
+                "query": "lambda",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "concurrency/Concurrency.md",
+                "file": "concurrency/1-Passing Data Between Threads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "concurrency/Concurrency.md",
+                "file": "concurrency/1-Passing Data Between Threads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "concurrency/Concurrency.md"
+                "file": "concurrency/1-Passing Data Between Threads.md"
               }
             }
           },
@@ -161,7 +148,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -177,55 +164,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dd6ed8c8510d3948",
+  "active": "4eb708ec0cd84ab7",
   "lastOpenFiles": [
-    "concurrency/lesson_03_detach.cpp",
-    "concurrency/lesson_03_introduction.cpp",
-    "concurrency/code",
-    "attachments/Pasted image 20230919062011.png",
-    "attachments/Pasted image 20230919061855.png",
-    "attachments/Pasted image 20230919061839.png",
-    "attachments/Pasted image 20230919061551.png",
+    "concurrency/0-Introduction and Running Threads.md",
+    "concurrency/1-Passing Data Between Threads.md",
+    "concurrency/Traffic Simulation Project.md",
+    "concurrency/code/passing_data_data_races/example_04.cpp",
+    "attachments/Pasted image 20231025140000.png",
+    "concurrency/code/passing_data_data_races/example_03.cpp",
+    "attachments/Pasted image 20231025135730.png",
+    "attachments/Pasted image 20231025135700.png",
+    "attachments/Pasted image 20231025135645.png",
+    "attachments/Pasted image 20231025135526.png",
+    "concurrency/code/passing_data_data_races/quiz.cpp",
+    "concurrency/code/passing_data_data_races/example_02.cpp",
+    "attachments/Pasted image 20231025132735.png",
+    "attachments/Pasted image 20231025132727.png",
+    "concurrency/code/passing_data_data_races/a.out",
+    "concurrency/code/passing_data_data_races/example_01.cpp",
+    "concurrency/code/passing_data_data_races",
+    "concurrency/code/passing_data_threads_vs_tasks/lesson_02.cpp",
+    "concurrency/code/passing_data_threads_vs_tasks/lesson_01.cpp",
+    "concurrency/code/passing_data_threads_vs_tasks/example_03.cpp",
+    "attachments/Pasted image 20231025132515.png",
+    "attachments/Pasted image 20231025132507.png",
+    "attachments/Pasted image 20231025132034.png",
     "object oriented programming/Introduction to OOP.md",
-    "concurrency/Concurrency.md",
-    "concurrency",
-    "foundations/code/1_introduction_to_cpp/lesson_02_first_program",
+    "foundations/Machine Configuration.md",
+    "memory management/Using the Heap.md",
+    "memory management/Variables and Memory.md",
+    "foundations/Route Planning Project.md",
+    "to do.md",
+    "object oriented programming/Advanced OOP.md",
     "foundations/code/4_route_planner_project/P0267_RefImpl/P0267_RefImpl/Samples/svg/external/svgpp/third_party/googletest/googlemock/docs/DesignDoc.md",
     "foundations/code/4_route_planner_project/P0267_RefImpl/P0267_RefImpl/Samples/svg/external/svgpp/third_party/googletest/googlemock/docs/v1_6/CheatSheet.md",
     "foundations/Multi File Programs.md",
     "foundations/code/4_route_planner_project/P0267_RefImpl/P0267_RefImpl/Samples/svg/external/svgpp/third_party/googletest/googlemock/docs/v1_7/ForDummies.md",
     "useful references.md",
-    "to do.md",
     "README.md",
-    "object oriented programming/code/1_advanced_oop/lesson_21_exercise.cpp",
-    "object oriented programming/code/1_advanced_oop/lesson_20_deduction.cpp",
-    "object oriented programming/code/1_advanced_oop/lesson_16_template.cpp",
-    "object oriented programming/code/1_advanced_oop/lesson_15_template.cpp",
-    "object oriented programming/code/1_advanced_oop/lesson_14_multiple_inheritance.cpp",
-    "object oriented programming/code/1_advanced_oop/lesson_13_overriding.cpp",
-    "object oriented programming/code/1_advanced_oop/inheritance-example.png",
     "object oriented programming/System Monitor Project.md",
-    "object oriented programming/Advanced OOP.md",
     "memory management/code/2_variables_and_memory/readme_variables_and_memory.md",
-    "memory management/Variables and Memory.md",
-    "memory management/Using the Heap.md",
     "memory management/Overview of Memory Types.md",
-    "foundations/code/4_route_planner_project/code_diagram.png",
     "foundations/code/3_multi_file_programs/cmake_learning/README.md",
-    "foundations/code/2_astar_search/notes_image_0.png",
-    "foundations/code/1_introduction_to_cpp/c-compilation-process.svg",
-    "foundations/Route Planning Project.md",
-    "foundations/Machine Configuration.md",
     "foundations/Introduction to C++.md",
     "foundations/A* Search.md",
     "daily notes/2023-08-28.md",
     "daily notes/2023-08-27.md",
     "canvases/test canvas.canvas",
-    "attachments/onlinegdb.gif",
-    "attachments/c-compilation-process.svg",
     "notes/nanodegree/foundations/Route Planning Project.md",
-    "notes/nanodegree/foundations/Multi File Programs.md",
-    "notes/nanodegree/foundations/Machine Configuration.md",
     "notes/nanodegree/canvases/test canvas.canvas"
   ]
 }

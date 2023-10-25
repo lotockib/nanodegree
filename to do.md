@@ -20,5 +20,5 @@
 - [ ]  Read [programming techniques](http://www.whigg.ac.cn/resource/program/CPP/201010/P020101023562491092566.pdf)
 - [ ]  Add lambda function to readme
 - [ ]  Read [lambda functions](https://en.cppreference.com/w/cpp/language/lambda)
-- [ ]  Read [lambda functions 2](https://docs.microsoft.com/en-us/cpp/cpp/lambda-expressions-in-cpp?view=vs-2019)
+- [x]  Read [lambda functions 2](https://docs.microsoft.com/en-us/cpp/cpp/lambda-expressions-in-cpp?view=vs-2019)
 - [ ]  Read [big O notation](https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/)
