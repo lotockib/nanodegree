@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concurrency/1-Passing Data Between Threads.md",
+                "file": "concurrency/3-Condition Variables and Queues.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse"
+                "sortOrder": "alphabetical"
               }
             }
           },
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "concurrency/1-Passing Data Between Threads.md",
+                "file": "concurrency/3-Condition Variables and Queues.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "concurrency/1-Passing Data Between Threads.md",
+                "file": "concurrency/3-Condition Variables and Queues.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "concurrency/1-Passing Data Between Threads.md"
+                "file": "concurrency/3-Condition Variables and Queues.md"
               }
             }
           },
@@ -152,7 +152,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,31 +165,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4eb708ec0cd84ab7",
+  "active": "dd6ed8c8510d3948",
   "lastOpenFiles": [
-    "concurrency/0-Introduction and Running Threads.md",
-    "concurrency/1-Passing Data Between Threads.md",
+    "attachments/Pasted image 20231026083137.png",
+    "concurrency/code/condiiton_vars_and_queues/concurrent_message_queue/a.out",
+    "concurrency/code/condiiton_vars_and_queues/concurrent_message_queue/exaxmple_generic_message_queue.cpp",
+    "concurrency/code/condiiton_vars_and_queues/concurrent_message_queue/example_1_waitingvehicles.cpp",
+    "concurrency/code/condiiton_vars_and_queues/concurrent_message_queue/example_1_solution.cpp",
+    "concurrency/code/condiiton_vars_and_queues/concurrent_message_queue",
+    "concurrency/code/condiiton_vars_and_queues/monitor_object_pattern/example_2_solution.cpp",
+    "concurrency/code/condiiton_vars_and_queues/monitor_object_pattern/example_2.cpp",
+    "concurrency/code/condiiton_vars_and_queues/monitor_object_pattern/example_1.cpp",
+    "concurrency/code/condiiton_vars_and_queues/monitor_object_pattern",
+    "attachments/Pasted image 20231026080624.png",
+    "attachments/Pasted image 20231026080617.png",
+    "attachments/Pasted image 20231026080608.png",
+    "attachments/Pasted image 20231026080558.png",
+    "attachments/Pasted image 20231026080547.png",
+    "attachments/Pasted image 20231026080539.png",
+    "attachments/Pasted image 20231026074839.png",
+    "attachments/Pasted image 20231026074829.png",
+    "attachments/Pasted image 20231026074820.png",
+    "attachments/Pasted image 20231026074810.png",
+    "concurrency/code/condiiton_vars_and_queues/example_2_solution.cpp",
+    "concurrency/2-Mutexes and Locks.md",
+    "concurrency/3-Condition Variables and Queues.md",
     "concurrency/Traffic Simulation Project.md",
-    "concurrency/code/passing_data_data_races/example_04.cpp",
-    "attachments/Pasted image 20231025140000.png",
-    "concurrency/code/passing_data_data_races/example_03.cpp",
-    "attachments/Pasted image 20231025135730.png",
-    "attachments/Pasted image 20231025135700.png",
-    "attachments/Pasted image 20231025135645.png",
-    "attachments/Pasted image 20231025135526.png",
-    "concurrency/code/passing_data_data_races/quiz.cpp",
-    "concurrency/code/passing_data_data_races/example_02.cpp",
-    "attachments/Pasted image 20231025132735.png",
-    "attachments/Pasted image 20231025132727.png",
-    "concurrency/code/passing_data_data_races/a.out",
-    "concurrency/code/passing_data_data_races/example_01.cpp",
-    "concurrency/code/passing_data_data_races",
-    "concurrency/code/passing_data_threads_vs_tasks/lesson_02.cpp",
-    "concurrency/code/passing_data_threads_vs_tasks/lesson_01.cpp",
-    "concurrency/code/passing_data_threads_vs_tasks/example_03.cpp",
-    "attachments/Pasted image 20231025132515.png",
-    "attachments/Pasted image 20231025132507.png",
-    "attachments/Pasted image 20231025132034.png",
+    "concurrency/1-Passing Data Between Threads.md",
+    "concurrency/0-Introduction and Running Threads.md",
     "object oriented programming/Introduction to OOP.md",
     "foundations/Machine Configuration.md",
     "memory management/Using the Heap.md",
@@ -209,9 +213,7 @@
     "foundations/Introduction to C++.md",
     "foundations/A* Search.md",
     "daily notes/2023-08-28.md",
-    "daily notes/2023-08-27.md",
     "canvases/test canvas.canvas",
-    "notes/nanodegree/foundations/Route Planning Project.md",
     "notes/nanodegree/canvases/test canvas.canvas"
   ]
 }

@@ -9,3 +9,6 @@
 
 ## Exercise 2 Code Walkthrough
 ![](https://youtu.be/1rcgMOF996k)
+
+## Exercise 3
+![](https://youtu.be/w4L17HaT2Xk)
