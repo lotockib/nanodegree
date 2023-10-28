@@ -12,3 +12,8 @@
 
 ## Exercise 3
 ![](https://youtu.be/w4L17HaT2Xk)
+
+## Final Tasks
+![](https://youtu.be/ie1CM5ms2O8)
+
+![](https://video.udacity-data.com/topher/2021/October/617ac7e8_screenshot-2021-10-25-at-4.45.59-pm/screenshot-2021-10-25-at-4.45.59-pm.png)

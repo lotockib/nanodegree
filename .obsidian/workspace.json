@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concurrency/3-Condition Variables and Queues.md",
+                "file": "concurrency/Traffic Simulation Project.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "concurrency/3-Condition Variables and Queues.md",
+                "file": "concurrency/Traffic Simulation Project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "concurrency/3-Condition Variables and Queues.md",
+                "file": "concurrency/Traffic Simulation Project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "concurrency/3-Condition Variables and Queues.md"
+                "file": "concurrency/Traffic Simulation Project.md"
               }
             }
           },
@@ -152,8 +152,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,6 +166,9 @@
   },
   "active": "dd6ed8c8510d3948",
   "lastOpenFiles": [
+    "attachments/Pasted image 20231028065001.png",
+    "concurrency/3-Condition Variables and Queues.md",
+    "concurrency/Traffic Simulation Project.md",
     "attachments/Pasted image 20231026083137.png",
     "concurrency/code/condiiton_vars_and_queues/concurrent_message_queue/a.out",
     "concurrency/code/condiiton_vars_and_queues/concurrent_message_queue/exaxmple_generic_message_queue.cpp",
@@ -186,11 +188,8 @@
     "attachments/Pasted image 20231026074839.png",
     "attachments/Pasted image 20231026074829.png",
     "attachments/Pasted image 20231026074820.png",
-    "attachments/Pasted image 20231026074810.png",
     "concurrency/code/condiiton_vars_and_queues/example_2_solution.cpp",
     "concurrency/2-Mutexes and Locks.md",
-    "concurrency/3-Condition Variables and Queues.md",
-    "concurrency/Traffic Simulation Project.md",
     "concurrency/1-Passing Data Between Threads.md",
     "concurrency/0-Introduction and Running Threads.md",
     "object oriented programming/Introduction to OOP.md",
