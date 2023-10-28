@@ -13,3 +13,6 @@
 [submodule "memory management/code/6_memory_management_chatbot/nanodegree-memory-chatbot"]
 	path = memory management/code/6_memory_management_chatbot/nanodegree-memory-chatbot
 	url = git@github.com:lotockib/nanodegree-memory-chatbot.git
+[submodule "concurrency/code/nanodegree-traffic-simulation"]
+	path = concurrency/code/nanodegree-traffic-simulation
+	url = git@github.com:lotockib/nanodegree-traffic-simulation.git
