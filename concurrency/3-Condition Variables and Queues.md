@@ -117,3 +117,14 @@ The following changes are required to turn the `WaitingVehicles` queue into a 
 3. Adapt the method `pushBack` for use with templates and rename it `send`. Do the same with `popBack` and rename it to `receive`.
 4. Test the queue by executing the following code in main:
 ![[Pasted image 20231026083137.png]]
+
+LINK to generic message queue solution
+![[example_generic_message_queue.cpp]]
+
+```embed-cpp
+
+```
+```embed-cpp 
+PATH: "vault://concurrency/code/4_condition_vars_and_queues/concurrent_message_queue/example_generic_message_queue.cpp"
+TITLE: "EMBEDDED generic message queue solution"
+```

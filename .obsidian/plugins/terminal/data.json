@@ -1,0 +1,99 @@
+{
+  "addToCommand": true,
+  "addToContextMenu": true,
+  "createInstanceNearExistingOnes": true,
+  "errorNoticeTimeout": 0,
+  "exposeInternalModules": true,
+  "focusOnNewInstance": true,
+  "hideStatusBar": "focused",
+  "language": "",
+  "newInstanceBehavior": "newHorizontalSplit",
+  "noticeTimeout": 5,
+  "openChangelogOnUpdate": true,
+  "pinNewInstance": true,
+  "preferredRenderer": "webgl",
+  "profiles": {
+    "ad9b4519-d769-4683-80ba-d7eb31c1659e": {
+      "args": [],
+      "executable": "/bin/sh",
+      "name": "",
+      "platforms": {
+        "linux": true
+      },
+      "pythonExecutable": "python3",
+      "restoreHistory": true,
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {},
+      "type": "integrated",
+      "useWin32Conhost": true
+    },
+    "f2b8e528-db99-481a-83fd-6c97026db791": {
+      "args": [],
+      "executable": "/bin/bash",
+      "name": "bash integrated",
+      "platforms": {
+        "darwin": false,
+        "linux": true
+      },
+      "pythonExecutable": "python3",
+      "restoreHistory": true,
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {},
+      "type": "integrated",
+      "useWin32Conhost": true
+    },
+    "developerConsole": {
+      "name": "",
+      "restoreHistory": true,
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {},
+      "type": "developerConsole"
+    },
+    "linuxExternalDefault": {
+      "args": [],
+      "executable": "xterm",
+      "name": "",
+      "platforms": {
+        "linux": true
+      },
+      "restoreHistory": true,
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {},
+      "type": "external"
+    },
+    "linuxIntegratedDefault": {
+      "args": [],
+      "executable": "/bin/sh",
+      "name": "",
+      "platforms": {
+        "linux": true
+      },
+      "pythonExecutable": "python3",
+      "restoreHistory": true,
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {},
+      "type": "integrated",
+      "useWin32Conhost": true
+    }
+  }
+}
