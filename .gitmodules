@@ -1,21 +1,21 @@
 [submodule "foundations/code/4_route_planner_project/P0267_RefImpl"]
-	path = foundations/code/4_route_planner_project/P0267_RefImpl
+	path = 0 foundations/code/4_route_planner_project/P0267_RefImpl
 	url = git@github.com:cpp-io2d/P0267_RefImpl.git
 [submodule "foundations/code/4_route_planner_project/nanodegree-route-planner"]
-	path = foundations/code/4_route_planner_project/nanodegree-route-planner
+	path = 0 foundations/code/4_route_planner_project/nanodegree-route-planner
 	url = git@github.com:lotockib/nanodegree-route-planner.git
 [submodule "foundations/code/4_route_planner_project/gtest-example"]
-	path = foundations/code/4_route_planner_project/gtest-example
+	path = 0 foundations/code/4_route_planner_project/gtest-example
 	url = git@github.com:bmorcos/gtest-example.git
 [submodule "object oriented programming/code/3_system_monitor_project/nanodegree-system-monitor"]
-	path = object oriented programming/code/3_system_monitor_project/nanodegree-system-monitor
+	path = projects/nanodegree-system-monitor
 	url = git@github.com:lotockib/nanodegree-system-monitor.git
 [submodule "memory management/code/6_memory_management_chatbot/nanodegree-memory-chatbot"]
-	path = memory management/code/6_memory_management_chatbot/nanodegree-memory-chatbot
+	path = projects/nanodegree-memory-chatbot
 	url = git@github.com:lotockib/nanodegree-memory-chatbot.git
 [submodule "concurrency/code/nanodegree-traffic-simulation"]
-	path = concurrency/code/nanodegree-traffic-simulation
+	path = 3 concurrency/code/nanodegree-traffic-simulation
 	url = git@github.com:lotockib/nanodegree-traffic-simulation.git
 [submodule "4 capstone project/nanodegree-turtle-food"]
-	path = 4 capstone project/nanodegree-turtle-food
+	path = projects/nanodegree-turtle-food
 	url = https://github.com/lotockib/nanodegree-turtle-food.git
