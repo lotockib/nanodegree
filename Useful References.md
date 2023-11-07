@@ -3,6 +3,7 @@
 ### API
 [cplusplus.com](https://cplusplus.com/ "https://cplusplus.com")
 [cppreference.com](https://en.cppreference.com/w/)
+zeal (`sudo apt install zeal`)
 ### Style
 [cpp core guidelines](https://github.com/isocpp/CppCoreGuidelines "https://github.com/isocpp/CppCoreGuidelines")
 ### Tutorials

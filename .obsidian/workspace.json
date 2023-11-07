@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3015173b790094b2",
+        "id": "6b0fa036168dc591",
         "type": "tabs",
         "children": [
           {
-            "id": "866ea63c6784996f",
+            "id": "e7be374cdb22d006",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -165,8 +165,11 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "866ea63c6784996f",
+  "active": "e7be374cdb22d006",
   "lastOpenFiles": [
+    "zeal.md",
+    "Useful References.md",
+    "().md",
     "projects/nanodegree-turtle-food/src/turtle_food/src/turtlesim/__init__.py",
     "projects/nanodegree-turtle-food/src/turtle_food/include/turtle_food/turtle_frame.h",
     "projects/nanodegree-turtle-food/src/turtle_food/include/turtle_food/turtle.h",
@@ -177,7 +180,6 @@
     "projects/nanodegree-turtle-food/src/turtle_food/srv/TeleportRelative.srv",
     "projects/nanodegree-turtle-food/src/turtle_food/srv/TeleportAbsolute.srv",
     "projects/nanodegree-turtle-food/src/turtle_food/srv/SpawnFood.srv",
-    "projects/nanodegree-turtle-food/src/turtle_food/srv/Spawn.srv",
     "projects/nanodegree-turtle-food/src/turtle_food/images_food/apple.png",
     "projects/nanodegree-turtle-food/src/turtle_food/images/turtle.png",
     "projects/nanodegree-turtle-food/src/turtle_food/images/sea-turtle.png",
@@ -211,8 +213,6 @@
     "0 foundations/code/4_route_planner_project/P0267_RefImpl/P0267_RefImpl/Samples/svg/external/svgpp/third_party/googletest/googletest/docs/V1_7_Samples.md",
     "0 foundations/code/4_route_planner_project/P0267_RefImpl/P0267_RefImpl/Samples/svg/external/svgpp/third_party/googletest/googletest/docs/V1_7_PumpManual.md",
     "0 foundations/code/4_route_planner_project/P0267_RefImpl/P0267_RefImpl/Samples/svg/external/svgpp/third_party/googletest/googletest/docs/V1_7_Primer.md",
-    "0 foundations/code/4_route_planner_project/P0267_RefImpl/P0267_RefImpl/Samples/svg/external/svgpp/third_party/googletest/googletest/docs/V1_7_FAQ.md",
-    "0 foundations/code/4_route_planner_project/P0267_RefImpl/P0267_RefImpl/Samples/svg/external/svgpp/third_party/googletest/googletest/docs/V1_7_Documentation.md",
     "canvases/test canvas.canvas",
     "notes/nanodegree/canvases/test canvas.canvas"
   ]
