@@ -16,3 +16,6 @@
 [submodule "concurrency/code/nanodegree-traffic-simulation"]
 	path = concurrency/code/nanodegree-traffic-simulation
 	url = git@github.com:lotockib/nanodegree-traffic-simulation.git
+[submodule "4 capstone project/nanodegree-turtle-food"]
+	path = 4 capstone project/nanodegree-turtle-food
+	url = https://github.com/lotockib/nanodegree-turtle-food.git

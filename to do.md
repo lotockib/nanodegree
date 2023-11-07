@@ -1,3 +1,4 @@
+- [ ] Read about STL https://www.geeksforgeeks.org/the-c-standard-template-library-stl/
 - [ ]  Finish todos in [[Using the Heap]] when out of Longmont network
 - [ ] How to use std::move https://youtu.be/OWNeCTd7yQE
 - [ ]  Read [how to use a reference](https://www.learncpp.com/cpp-tutorial/using-a-language-reference/)
@@ -22,3 +23,5 @@
 - [ ]  Read [lambda functions](https://en.cppreference.com/w/cpp/language/lambda)
 - [x]  Read [lambda functions 2](https://docs.microsoft.com/en-us/cpp/cpp/lambda-expressions-in-cpp?view=vs-2019)
 - [ ]  Read [big O notation](https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/)
+- [ ]  [Multithreading tutorials](https://www.tutorialspoint.com/cplusplus/cpp_multithreading.htm)
+- [ ] 

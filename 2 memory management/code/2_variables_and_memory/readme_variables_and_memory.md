@@ -34,7 +34,7 @@ Stack overflow is what the entire space of the stack is consumed.
 
 For my machine, ```ulimit -s``` says I have 8MB of stack.
 
-[example code that causes stack overflow](./lesson_03_stack_overflow.cpp)
+[example code that causes stack overflow](lesson_03_stack_overflow.cpp)
 
 ### Passing Variables by Value
 
@@ -56,7 +56,7 @@ A major disadvantage is that the caller does not always know what will happen to
 
 ### Example
 
-Note that sometimes the reference being passed can be larger than the value itself.  [lesson example](./lesson_04_ways_to_pass_argument.cpp). Let us take a look at the size of the various parameter types using the sizeof command:
+Note that sometimes the reference being passed can be larger than the value itself.  [lesson example](lesson_04_ways_to_pass_argument.cpp). Let us take a look at the size of the various parameter types using the sizeof command:
 
 
 printf("size of int: %lu\n", sizeof(int));

@@ -9,7 +9,7 @@ GNU Compiler Collection is a popular, open-source, cross-platform compiler from 
 In order to use classes and functions from the C++ Standard Library, the compiler must have access to a compiled version of the standard library, stored in object files. Most compiler implementations, including GCC, include those object files as part of the installation process. In order to use the Standard Library facilities, the compiler must ["link"](https://en.wikipedia.org/wiki/Linker_(computing) "https://en.wikipedia.org/wiki/Linker_(computing)") the standard library object files to the object files created from the programmer's source code.
 
 Once the compiler links together the necessary object files, it is able to generate a standalone executable file that can run on the operating system.
-![[c-compilation-process.svg]]
+![[0 foundations/code/1_introduction_to_cpp/c-compilation-process.svg]]
 
 ## commenting
 
