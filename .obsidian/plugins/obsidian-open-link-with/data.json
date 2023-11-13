@@ -4,11 +4,5 @@
   "modifierBindings": [],
   "enableLog": false,
   "timeout": 500,
-  "inAppViewRec": [
-    {
-      "leafId": "6d3febca67ef99e4",
-      "url": "https://en.cppreference.com/w/",
-      "mode": 1
-    }
-  ]
+  "inAppViewRec": []
 }

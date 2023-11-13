@@ -1,6 +1,6 @@
-- [ ] Read about STL https://www.geeksforgeeks.org/the-c-standard-template-library-stl/
-- [ ]  Finish todos in [[Using the Heap]] when out of Longmont network
-- [ ] How to use std::move https://youtu.be/OWNeCTd7yQE
+- [x] Read about STL https://www.geeksforgeeks.org/the-c-standard-template-library-stl/
+- [x]  Finish todos in [[Using the Heap]] when out of Longmont network
+- [x] How to use std::move https://youtu.be/OWNeCTd7yQE
 - [ ]  Read [how to use a reference](https://www.learncpp.com/cpp-tutorial/using-a-language-reference/)
 - [ ]  Add links to lesson files in readme maybe?
 - [ ]  Update pointer section with clear examples of declaring pointers in various ways, passing as arguments, and returning
